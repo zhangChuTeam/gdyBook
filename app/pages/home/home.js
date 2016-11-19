@@ -26,13 +26,4 @@ angular.module('projectDemo.homePage',[])
 })
 .controller('homeCtrl',function($scope){
 
-    $scope.arr = [
-{name:'aa',age:18},
-{name:'aa',age:18},
-{name:'aa',age:18},
-{name:'aa',age:18},
-{name:'aa',age:18},
-{name:'aa',age:18},
-{name:'aa',age:18}
-    ]
 })
