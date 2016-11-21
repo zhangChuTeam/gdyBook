@@ -11,6 +11,15 @@ angular.module('myPage',[])
       $css.add('app/pages/my/my.css')
     }
   })
+  .state({
+				name: 'like',
+				url: '/like',
+				css: 'app/pages/my/like/like.css',
+				templateUrl: 'app/pages/my/like/like.html',
+				controller: function($css) {
+					$css.add('app/pages/my/like/like.css')
+				}
+	})
 })
 
 
