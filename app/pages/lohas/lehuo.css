@@ -1,0 +1,166 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: normal 0.166667rem "微软雅黑";
+  box-sizing: border-box;
+}
+ul ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.lehuo {
+  width: 200%;
+}
+.le_head {
+  width: 100%;
+  height: 1.555556rem;
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+.le_head h2 {
+  font-size: 0.472222rem;
+  color: #464646;
+}
+.le_head h2:first-of-type {
+  margin-left: 3.25rem;
+}
+.le_head h2:last-of-type {
+  margin-right: 3.236111rem;
+}
+.le_cate,
+.le_health {
+  width: 50%;
+  float: left;
+}
+.le_cate .le_cate_head,
+.le_health .le_cate_head,
+.le_cate .le_health_head,
+.le_health .le_health_head {
+  position: fixed;
+  top: 1.569444rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 20;
+}
+.le_cate .le_cate_head .samPic,
+.le_health .le_cate_head .samPic,
+.le_cate .le_health_head .samPic,
+.le_health .le_health_head .samPic {
+  background: #ffffff;
+  width: 300%;
+  height: 1.833333rem;
+  border-top: 1px solid #e0e0e0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.le_cate .le_cate_head .samPic img,
+.le_health .le_cate_head .samPic img,
+.le_cate .le_health_head .samPic img,
+.le_health .le_health_head .samPic img {
+  width: 1.388889rem;
+  height: 1.388889rem;
+  padding-right: 0.458333rem;
+  padding-top: 0.277778rem;
+}
+.le_cate .le_cate_head .samPic img:first-of-type,
+.le_health .le_cate_head .samPic img:first-of-type,
+.le_cate .le_health_head .samPic img:first-of-type,
+.le_health .le_health_head .samPic img:first-of-type {
+  margin-left: 0.277778rem;
+}
+.le_cate .le_cate_xiang,
+.le_health .le_cate_xiang,
+.le_cate .le_health_xiang,
+.le_health .le_health_xiang {
+  margin-top: 3.402778rem;
+}
+.le_cate .le_cate_xiang figure,
+.le_health .le_cate_xiang figure,
+.le_cate .le_health_xiang figure,
+.le_health .le_health_xiang figure {
+  position: relative;
+}
+.le_cate .le_cate_xiang figure img,
+.le_health .le_cate_xiang figure img,
+.le_cate .le_health_xiang figure img,
+.le_health .le_health_xiang figure img {
+  width: 100%;
+  height: 5.208333rem;
+}
+.le_cate .le_cate_xiang figure figcaption,
+.le_health .le_cate_xiang figure figcaption,
+.le_cate .le_health_xiang figure figcaption,
+.le_health .le_health_xiang figure figcaption {
+  margin-left: 0.569444rem;
+  margin-bottom: 0.555556rem;
+}
+.le_cate .le_cate_xiang figure figcaption h2,
+.le_health .le_cate_xiang figure figcaption h2,
+.le_cate .le_health_xiang figure figcaption h2,
+.le_health .le_health_xiang figure figcaption h2 {
+  font-size: 0.402778rem;
+  color: #282828;
+  line-height: 1.138889rem;
+}
+.le_cate .le_cate_xiang figure figcaption span,
+.le_health .le_cate_xiang figure figcaption span,
+.le_cate .le_health_xiang figure figcaption span,
+.le_health .le_health_xiang figure figcaption span {
+  font-size: 0.361111rem;
+  color: #cdc4c4;
+}
+.le_cate .le_cate_xiang figure figcaption span:last-of-type,
+.le_health .le_cate_xiang figure figcaption span:last-of-type,
+.le_cate .le_health_xiang figure figcaption span:last-of-type,
+.le_health .le_health_xiang figure figcaption span:last-of-type {
+  margin-left: 1.805556rem;
+}
+.le_cate .le_cate_xiang figure .pic,
+.le_health .le_cate_xiang figure .pic,
+.le_cate .le_health_xiang figure .pic,
+.le_health .le_health_xiang figure .pic {
+  width: 2.291667rem;
+  position: absolute;
+  top: 4.583333rem;
+  right: 0.527778rem;
+}
+.le_cate .le_cate_xiang figure .pic img,
+.le_health .le_cate_xiang figure .pic img,
+.le_cate .le_health_xiang figure .pic img,
+.le_health .le_health_xiang figure .pic img {
+  display: block;
+  margin: 0 auto;
+  width: 1.388889rem;
+  height: 1.388889rem;
+  border: 1px solid #e48e67;
+  border-radius: 50%;
+  margin-bottom: 0.380999rem;
+}
+.le_cate .le_cate_xiang figure .pic p,
+.le_health .le_cate_xiang figure .pic p,
+.le_cate .le_health_xiang figure .pic p,
+.le_health .le_health_xiang figure .pic p {
+  font-size: 0.361111rem;
+  color: #cdc4c4;
+  text-align: center;
+}
+.le_health_head {
+  border-top: 1px solid #e0e0e0;
+  overflow: auto;
+  position: fixed;
+  top: 1.569444rem;
+  left: 50%;
+  z-index: 20;
+}

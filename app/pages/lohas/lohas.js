@@ -5,6 +5,10 @@ angular.module('lohasPage',[])
   .state({
     name:'lohas',
     url:'/lohas',
-    templateUrl:'app/pages/lohas/lohas.html'
+        css:'app/pages/lohas/lehuo.css',
+        templateUrl:'app/pages/lohas/lehuo.html',
+        controller:function($css){
+          $css.add('app/pages/lohas/lehuo.css')
+        }
   })
 })
