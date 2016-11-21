@@ -37,5 +37,9 @@ angular.module('homePage', ["ksSwiper"])
 //					showNavButtons: false
 //				};
 		})
+		$scope.click = function (){
+			$(".wrap").css("margin-left","-100%");
+//			$(".nav span").animate({"left":"100%"})
+		}
 		
 	})

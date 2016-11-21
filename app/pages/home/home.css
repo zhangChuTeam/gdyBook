@@ -1,6 +1,7 @@
 #rPage{
 	width: 100%;
 	background-color: #eee;
+	font-size: 0.333333rem;
 }
 #rPage header{
 	width: 100%;
@@ -436,6 +437,12 @@
 }
 #rPage .common dl div p a:nth-child(-n+2){
 	margin-right: 0.277778rem; 
+}
+#rPage .common dd>p{
+	height: 0.888889rem;
+}
+#rPage .common dd>p a{
+	float: left;
 }
 #rPage .common dd>p a:first-of-type{
 	margin-left: 0.069444rem;
