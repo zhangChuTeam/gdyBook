@@ -1,10 +1,10 @@
-angular.module('homePage', [])
+angular.module('homePage', ["ksSwiper"])
 	.config(function($stateProvider, $urlRouterProvider) {
 		$stateProvider
 			.state({
 				name: 'home',
 				url: '/home',
-				css: 'app/pages/home/home.css',			
+				css: 'app/pages/home/home.css',
 				templateUrl: 'app/pages/home/home.html',
 				controller: 'homeCtrl'
 			})
@@ -14,7 +14,7 @@ angular.module('homePage', [])
 				css: 'app/pages/home/home.part1/part1.css',
 				templateUrl: 'app/pages/home/home.part1/home.part1.html',
 				controller: function($css) {
-					$css.add('app/pages/home/home.css')
+					$css.add('app/pages/home/home.css');
 				}
 			})
 			.state({
@@ -27,9 +27,15 @@ angular.module('homePage', [])
 		$http.get('app/pages/home/swiper.json')
 		.success(function(res) {
 			$scope.slides = res.slide;
-			var mySwiper = new Swiper('.swiper-container', {
-				loop: true,
-				pagination: '.swiper-pagination'
-			})
+//				var params = {
+//					slidesPerView: $scope.slidesPerView || 1,
+//					slidesPerColumn: $scope.slidesPerColumn || 1,
+//					spaceBetween: $scope.spaceBetween || 0,
+//					direction: $scope.direction || 'horizontal',
+//					loop: $scope.loop || false,
+//					initialSlide: $scope.initialSlide || 0,
+//					showNavButtons: false
+//				};
 		})
+		
 	})
