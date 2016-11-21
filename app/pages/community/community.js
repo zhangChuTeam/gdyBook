@@ -1,10 +1,10 @@
-angular.module('projectDemo.cartPage',[])
+angular.module('communityPage',[])
 .config(function($stateProvider,$urlRouterProvider){
 
   $stateProvider
   .state({
-    name:'cart',
-    url:'/cart',
-    templateUrl:'app/pages/cart/cart.html'
+    name:'community',
+    url:'/community',
+    templateUrl:'app/pages/community/community.html'
   })
 })
