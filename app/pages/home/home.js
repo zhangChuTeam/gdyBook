@@ -27,9 +27,9 @@ angular.module('homePage', [])
 		$http.get('app/pages/home/swiper.json')
 		.success(function(res) {
 			$scope.slides = res.slide;
-			var mySwiper = new Swiper('.swiper-container', {
-				loop: true,
-				pagination: '.swiper-pagination'
-			})
+			$scope.click = function (){
+			$(".wrap").css("margin-left","-100%");
+	//			$(".nav span").animate({"left":"100%"})
+			}
 		})
 	})
