@@ -1,6 +1,7 @@
 #rPage{
 	width: 100%;
 	background-color: #eee;
+	font-size: 0.333333rem;
 }
 #rPage header{
 	width: 100%;
@@ -55,9 +56,6 @@
 	overflow: hidden;
 	padding-top: 1.555556rem;
 }
-#rPage .wrap .recommend{
-	/*display: none;*/
-}
 #rPage .wrap>div{
 	width: 10.0rem;
 	float: left;
@@ -84,6 +82,18 @@
 }
 #rPage .recommend .banner div div{
 	float: left;
+}
+#rPage .swiper-pagination{
+	text-align: right;
+}
+#rPage .swiper-pagination .swiper-pagination-bullet{
+	background-color: #b6b6b2;
+}
+#rPage .swiper-pagination .swiper-pagination-bullet-active{
+	background-color: #ff8f5c;
+}
+#rPage .recommend{
+	display: none;
 }
 #rPage .recommend .searchBar{
 	width: 100%;
@@ -412,6 +422,9 @@
 #rPage .foodOriginal{
 	display: none;
 }
+#rPage .common{
+	background-color: #fff;
+}
 #rPage .common dl{
 	margin-bottom: 0.277778rem;
 	padding: 0 0.402778rem 0.111111rem 0.333333rem;
@@ -442,6 +455,12 @@
 }
 #rPage .common dl div p a:nth-child(-n+2){
 	margin-right: 0.277778rem; 
+}
+#rPage .common dd>p{
+	height: 0.888889rem;
+}
+#rPage .common dd p a{
+	float: left;
 }
 #rPage .common dd>p a:first-of-type{
 	margin-left: 0.069444rem;

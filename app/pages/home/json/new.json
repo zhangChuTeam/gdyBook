@@ -1,0 +1,621 @@
+{
+	"code": "0",
+	"msg": "success",
+	"version": "4.2",
+	"timestamp": 1479536991000,
+	"data": {
+		"dish_count": 414,
+		"is_new": 0,
+		"scene_background": "http:\/\/img.szzhangchu.com\/1458631585588_7839705971.jpg",
+		"scene_desc": "每天献上最新鲜的美食！",
+		"scene_id": 51,
+		"scene_title": "今日新品",
+		"scene_type": 15,
+		"dishes_list": [
+			{
+				"image": "http:\/\/img.szzhangchu.com\/1463759337766_4050642458.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/dongguajiaosuA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/dongguajiaosuB.mp4",
+				"dishes_id": 15044,
+				"dishes_name": "冬瓜酵素",
+				"dishes_desc": "一款消脂减肥饮品，快来一起学起来吧！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15044",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 316,
+						"text": "酸",
+						"type": 2
+					}, {
+						"id": 324,
+						"text": "腌",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}, {
+						"id": 291,
+						"text": "瘦身排毒",
+						"type": 2
+					}, {
+						"id": 292,
+						"text": "美容养颜",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467558369201_1575517262.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/xianshuiyaA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/xianshuiyaB.mp4",
+				"dishes_id": 15558,
+				"dishes_name": "咸水鸭",
+				"dishes_desc": "鸭肉综合了葱、姜以及花椒的香味，咸香入味，非常下饭。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15558",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}, {
+						"id": 155,
+						"text": "鸭肉",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467123668717_1119206198.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/yinerhongzaotangshuiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/yinerhongzaotangshuiB.mp4",
+				"dishes_id": 15533,
+				"dishes_name": "银耳红枣糖水",
+				"dishes_desc": "晚上泡一杯红枣茶，可以有效地治疗失眠。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15533",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 253,
+						"text": "糖水",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}, {
+						"id": 297,
+						"text": "安神助眠",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467122571236_1202824006.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/guiyuanbaiguotangshuiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/guiyuanbaiguotangshuiB.mp4",
+				"dishes_id": 15531,
+				"dishes_name": "桂圆白果糖水",
+				"dishes_desc": "滋补气血的桂圆+滋阴润肺的白果，尤其适合秋冬食用哦！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15531",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 292,
+						"text": "美容养颜",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 296,
+						"text": "益气补血",
+						"type": 2
+					}, {
+						"id": 382,
+						"text": "美容餐",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467123145145_3982005899.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/heimihongtangzhouA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/heimihongtangzhouB.mp4",
+				"dishes_id": 15532,
+				"dishes_name": "黑米红糖粥",
+				"dishes_desc": "口感黏稠，回味无穷，女性朋友的宠儿。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15532",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 309,
+						"text": "防癌抗癌",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 296,
+						"text": "益气补血",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}, {
+						"id": 189,
+						"text": "黑米",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467124919532_8245212079.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jitangwawacaiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jitangwawacaiB.mp4",
+				"dishes_id": 15535,
+				"dishes_name": "鸡汤娃娃菜杯",
+				"dishes_desc": "清爽软嫩的娃娃菜，吸收了鸡汤的鲜美，太好吃了！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15535",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 380,
+						"text": "靓汤",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 291,
+						"text": "瘦身排毒",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467130494784_2202185015.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/qiangbanxianhuanghuacaiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/qiangbanxianhuanghuacaiB.mp4",
+				"dishes_id": 15540,
+				"dishes_name": "炝拌鲜黄花菜",
+				"dishes_desc": "将黄花菜拌成酸辣口味的凉菜，既开胃又保健，很适合夏季食用。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15540",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 323,
+						"text": "拌",
+						"type": 2
+					}, {
+						"id": 319,
+						"text": "辣",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467554872756_6144114910.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/duojiaozhengyukuaiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/duojiaozhengyukuaiB.mp4",
+				"dishes_id": 15545,
+				"dishes_name": "剁椒蒸鱼块",
+				"dishes_desc": "肉质鲜嫩，口感一流，是一道极好的下饭菜。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15545",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 165,
+						"text": "淡水鱼",
+						"type": 2
+					}, {
+						"id": 294,
+						"text": "保肝护肾",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467121398725_3532012835.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/ganbeikuguatangA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/ganbeikuguatangB.mp4",
+				"dishes_id": 15520,
+				"dishes_name": "干贝苦瓜汤",
+				"dishes_desc": "揭开盖，一股淡淡的海洋气息扑鼻而来~",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15520",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 291,
+						"text": "瘦身排毒",
+						"type": 2
+					}, {
+						"id": 300,
+						"text": "降低血脂",
+						"type": 2
+					}, {
+						"id": 169,
+						"text": "贝",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1466264621554_2607766635.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/qingluobojiaosuA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/qingluobojiaosuB.mp4",
+				"dishes_id": 15504,
+				"dishes_name": "青萝卜酵素",
+				"dishes_desc": "将青萝卜做成酵素，每天饮用，还可以预防“富贵病”，年寿较高者不妨多喝。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15504",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 388,
+						"text": "养生餐",
+						"type": 2
+					}, {
+						"id": 300,
+						"text": "降低血脂",
+						"type": 2
+					}, {
+						"id": 324,
+						"text": "腌",
+						"type": 2
+					}, {
+						"id": 283,
+						"text": "减肥",
+						"type": 2
+					}, {
+						"id": 291,
+						"text": "瘦身排毒",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467129959730_2586575900.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/nanguaroudingdunfanA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/nanguaroudingdunfanB.mp4",
+				"dishes_id": 15539,
+				"dishes_name": "南瓜肉丁炖饭",
+				"dishes_desc": "米饭和南瓜都炖得很软，老人小孩也很适合食用哦！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15539",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 181,
+						"text": "大米",
+						"type": 2
+					}, {
+						"id": 322,
+						"text": "淡",
+						"type": 2
+					}, {
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467127648041_4986297765.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/shijinshucaitangA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/shijinshucaitangB.mp4",
+				"dishes_id": 15538,
+				"dishes_name": "什锦蔬菜汤杯",
+				"dishes_desc": "清爽可口，虽然是素菜汤，但营养很足",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15538",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 380,
+						"text": "靓汤",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1466955600973_3936314156.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jinxiangyuA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jinxiangyuB.mp4",
+				"dishes_id": 15519,
+				"dishes_name": "金相玉",
+				"dishes_desc": "这道金相玉中的“金”指油煎过的豆腐，“玉”指直接炒食的豆腐，不一样的口感，一样的美味，再加入木耳、黄花菜等食材，味道更加丰富。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15519",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}, {
+						"id": 326,
+						"text": "炒",
+						"type": 2
+					}, {
+						"id": 320,
+						"text": "咸",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467555293454_5614214928.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jingpasibaocaiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jingpasibaocaiB.mp4",
+				"dishes_id": 15560,
+				"dishes_name": "京扒四宝菜",
+				"dishes_desc": "将上海青、西蓝花、娃娃菜、金华火腿片和香菇组合一起，做出来的菜肴鲜美不油腻，既美味又健康。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15560",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}, {
+						"id": 327,
+						"text": "焖",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 159,
+						"text": "根茎类",
+						"type": 2
+					}, {
+						"id": 160,
+						"text": "叶菜类",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1467555730981_7545307905.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/lijiangpijiuliyuA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/lijiangpijiuliyuB.mp4",
+				"dishes_id": 15561,
+				"dishes_name": "漓江啤酒鲤鱼",
+				"dishes_desc": "漓江啤酒鱼是广西桂林的名菜，啤酒香味被鲤鱼吸收，肉质更加细嫩，味道更加鲜美。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15561",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 327,
+						"text": "焖",
+						"type": 2
+					}, {
+						"id": 165,
+						"text": "淡水鱼",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1466349392296_5001736814.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jianjiashaxiangjiaoA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jianjiashaxiangjiaoB.mp4",
+				"dishes_id": 15509,
+				"dishes_name": "煎夹沙香蕉",
+				"dishes_desc": "吃起来先酥再软后滑，并且甜度适中，让人不得不爱！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15509",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 330,
+						"text": "炸",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1466266449839_5457096683.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jiangguozonghejiaosuA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jiangguozonghejiaosuB.mp4",
+				"dishes_id": 15506,
+				"dishes_name": "浆果综合酵素",
+				"dishes_desc": "这款浆果综合酵素味道相当讨喜，天然的水果酸甜，清新沁人，并且它的美容作用颇为强大。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15506",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}, {
+						"id": 316,
+						"text": "酸",
+						"type": 2
+					}, {
+						"id": 280,
+						"text": "美白",
+						"type": 2
+					}, {
+						"id": 292,
+						"text": "美容养颜",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1466350007418_8240658599.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jiangyoujiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jiangyoujiB.mp4",
+				"dishes_id": 15510,
+				"dishes_name": "酱油鸡",
+				"dishes_desc": "鸡肉和姜葱向来是经典的搭配，在姜葱的基础上加入红椒粒，制成的酱汁更加惹味，让鸡肉的鲜美进一步升华。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15510",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 320,
+						"text": "咸",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 154,
+						"text": "鸡肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1464442983908_9476150023.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/boluoshijinshuiguotianpinA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/boluoshijinshuiguotianpinB.mp4",
+				"dishes_id": 15133,
+				"dishes_name": "菠萝什锦水果甜品",
+				"dishes_desc": "休闲的周末，最是喜欢自己在厨房里小忙活，享受创造美食的乐趣。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15133",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}, {
+						"id": 302,
+						"text": "补铁",
+						"type": 2
+					}, {
+						"id": 233,
+						"text": "下午茶",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1464449224582_3196713191.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/chuanshifenzhengrouA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/chuanshifenzhengrouB.mp4",
+				"dishes_id": 15154,
+				"dishes_name": "川式粉蒸肉",
+				"dishes_desc": "这道菜要经过拌、炒、磨、蒸四个步骤，川菜味厚的特点，在这一步步之后突显。最终上桌的牛肉麻、辣、咸、鲜，口感软、嫩、酥、糯。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=15154",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 319,
+						"text": "辣",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 152,
+						"text": "牛肉",
+						"type": 2
+					}, {
+						"id": 296,
+						"text": "益气补血",
+						"type": 2
+					}, {
+						"id": 232,
+						"text": "晚餐",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}
+		],
+		"share_url": "http:\/\/m.izhangchu.com\/web\/scene\/view.html?&scene_id=51",
+		"relates": [
+			{
+				"scene_background": "http:\/\/img.szzhangchu.com\/1453083434064_1805001707.jpg",
+				"scene_id": 110,
+				"scene_title": "你妈喊你过年回家吃饭",
+				"dishes_count": 6
+			}, {
+				"scene_background": "http:\/\/img.szzhangchu.com\/1456121560715_6563193816.jpg",
+				"scene_id": 121,
+				"scene_title": "欢欢喜喜吃汤圆",
+				"dishes_count": 10
+			}, {
+				"scene_background": "http:\/\/img.szzhangchu.com\/1452162545986_2063233007.jpg",
+				"scene_id": 108,
+				"scene_title": "吐司变变变！",
+				"dishes_count": 7
+			}
+		]
+	}
+}
