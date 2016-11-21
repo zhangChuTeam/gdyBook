@@ -5,6 +5,12 @@ angular.module('myPage',[])
   .state({
     name:'my',
     url:'/my',
-    templateUrl:'app/pages/my/my.html'
+    css:'app/pages/my/my.css',
+    templateUrl:'app/pages/my/my.html',
+    controller:function($css){
+      $css.add('app/pages/my/my.css')
+    }
   })
 })
+
+

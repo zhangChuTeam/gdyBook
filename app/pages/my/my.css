@@ -1,0 +1,27 @@
+#my{width: 100%;font-size: 0.347222rem;background-color: #eee;height: 100%;}
+#my .header{width: 100%;height: 6.472222rem;background: url("http://pub.szzhangchu.com/web/v4.2/images/top_bg.jpg") 0% 0% / cover;color: #fff;position: fixed;top: 0;left: 0;}
+#my .header .top{width: 100%;height: 1.527778rem;border-top: 1px solid #e0e0e0;display: flex;justify-content: space-between;font-weight: bold;font-size: 0.458333rem;}
+#my .header .top span:nth-of-type(2){margin-top: 0.555556rem;}
+#my .header .top span:nth-of-type(3){width: 0.569444rem;height: 0.555556rem;margin: 0.555556rem 0.486111rem 0 0;}
+#my .header .top span:nth-of-type(3) img{width: 100%;height: 100%;}
+#my .name{width: 100%;height: 2.333333rem;position: absolute;bottom: 0;right: 0;font-size: 0.361111rem;z-index: 1;}
+#my .name2{background-color: #666;opacity: .6;width: 100%;height: 2.333333rem;position: absolute;bottom: 0;right: 0;}
+#my .name p:first-of-type{line-height: 1.111111rem;text-indent: 2.472222rem;}
+#my .name p:last-of-type{text-indent: 0.555556rem;}
+#my .headP{width: 1.638889rem;height: 1.638889rem;border-radius: 50%;position: absolute;bottom: 1.527778rem;left: 0.555556rem;}
+#my .headP img{width: 100%;height: 100%;border-radius: 50%;}
+#my nav{display: flex;width: 100%;height: 1.5rem;line-height: 1.5rem;justify-content:space-between;background-color: #fff;margin-top: 6.472222rem;}
+#my nav p:first-of-type{margin-left: 2.152778rem;}
+#my nav p:last-of-type{margin-right: 2.152778rem;}
+#my .message{width: 100%;height: 1.5rem;margin: 0.277778rem 0;background-color: #fff;display: flex;justify-content:space-between;}
+#my .common{display: flex;justify-content:space-between;}
+#my .message span:first-of-type{margin: 0.555556rem 0 0 0.555556rem;}
+#my .message span:last-of-type{margin: 0.555556rem 0.555556rem 0 0;width: 0.208333rem;height: 0.388889rem;}
+#my .message span:last-of-type img{width: 100%;height: 100%;}
+#my .packet{width: 100%;height: 3rem;box-sizing: border-box;background-color: #fff;margin-bottom: 0.277778rem;}
+#my .packet p{width: 8.805556rem;height: 1.5rem;margin: 0 auto;}
+#my .packet p:first-of-type{border-bottom: 1px solid #e0e0e0;}
+#my .packet p span:first-of-type{margin: 0.555556rem 0 0 0;}
+#my .packet p span:last-of-type{margin: 0.555556rem 0 0 0;width: 0.208333rem;height: 0.388889rem;}
+#my .packet p span:last-of-type img{width: 100%;height: 100%;}
+#my .exit{width: 100%;height: 1.5rem;margin: 0.277778rem 0;background-color: #fff;display: flex;justify-content:space-around;line-height: 1.5rem;color: #ff8f5c;}
