@@ -1,3 +1,451 @@
-h1{
-  color: red
+#rPage{
+	width: 100%;
+	background-color: #eee;
+}
+#rPage header{
+	width: 100%;
+	height: 1.555556rem;
+	padding: 0 0.541667rem;
+	background-color: #fff;
+	border-bottom: 1px solid #e0e0e0;
+	position: fixed;
+	z-index: 3;
+}
+#rPage header>div{
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#rPage header .sao img{
+	width: 0.5rem;
+	height: 0.430556rem;
+	vertical-align: middle;
+}
+#rPage header .search img{
+	width: 0.444444rem;
+	height: 0.444444rem;
+	vertical-align: middle;
+}
+#rPage header .nav{
+	font-size: 0.444444rem;
+	position: relative;
+}
+#rPage header .nav a{
+	display: flex;
+	height: 100%;
+	margin: 0 0.361111rem;
+	display: inline-block;
+	height: 100%;
+	float: left;
+	color: #7c7c7c;
+	text-align: center;
+}
+#rPage header span{
+	display: inline-block;
+	width: 0.972222rem;
+	height: 0.055556rem;
+	background-color: #ff8f5c;
+	position: absolute;
+	left: 0.333333rem;
+	top: 1.0rem;
+}
+#rPage .wrap{
+	width: 300%;
+	overflow: hidden;
+	padding-top: 1.555556rem;
+}
+#rPage .wrap .recommend{
+	/*display: none;*/
+}
+#rPage .wrap>div{
+	width: 10.0rem;
+	float: left;
+}
+#rPage .recommend .banner{
+	width: 100%;
+	height: 3.375rem;
+	overflow: hidden;
+}
+#rPage .recommend .banner>div{
+	height: 100%;
+}
+#rPage .recommend .banner>div>div{
+	height: 100%;
+}
+#rPage .recommend .banner img{
+	height: 3.375rem; 
+}
+#rPage .recommend .banner>div{
+	width: 500%;
+}
+#rPage .recommend .banner>div a{
+	display: inline-block;
+}
+#rPage .recommend .banner div div{
+	float: left;
+}
+#rPage .recommend .searchBar{
+	width: 100%;
+	height: 1.277778rem;
+	padding: 0.194444rem 0.555556rem;
+}
+#rPage .recommend .searchBar>div{
+	height: 0.888889rem;
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.069444rem;
+}
+#rPage .recommend .searchBar>div span{
+	display: inline-block;
+	width: 0.347222rem;
+	height: 0.347222rem;
+	background: url(../../common/img/home/search2.png) no-repeat;
+	background-size: 0.347222rem;
+}
+#rPage .recommend .searchBar>div input{
+	color: #a5a5a5;
+	font-size: 0.305556rem;
+	border: 0;
+	margin-left: 0.277778rem;
+	outline: none;
+}
+#rPage .recommend nav{
+	width: 100%;
+	height: 2.347222rem;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+}
+#rPage .recommend nav dl{
+	flex-grow: 1;
+	text-align: center;
+	font-size: 0.305556rem;
+}
+#rPage .recommend nav .new_hand img{
+	width: 0.444444rem;
+	height: 0.597222rem;
+}
+#rPage .recommend nav .food_original img{
+	width: 0.666667rem;
+	height: 0.652778rem;
+}
+#rPage .recommend nav .menu img{
+	width: 0.763889rem;
+	height: 0.638889rem;
+}
+#rPage .recommend nav .love img{
+	width: 0.597222rem;
+	height: 0.5rem;
+}
+#rPage .recommend nav dt{
+	height: 0.666667rem;
+}
+#rPage .recommend nav dd{
+	height: 1.097222rem;
+	line-height: 1.097222rem;
+}
+#rPage .recommend>.bg{
+	width: 100%;
+	height: 0.277778rem;
+	background-color: #dedede;
+}
+#rPage .recommend .plan{
+	width: 100%;
+	height: 1.944444rem;
+	background-color: #fff;
+	padding: 0.388889rem 0;
+	margin-bottom: 0.277778rem;
+	overflow: auto;
+}
+#rPage .recommend .plan>div{
+	width: 200%;
+}
+#rPage .recommend .plan dl{
+	width: 25%;
+	height: 100%;
+	padding-left: 0.194444rem;
+	float: left;
+}
+#rPage .recommend .plan dl:nth-child(odd){
+	border-right: 2px solid #e2e2e2;
+}
+#rPage .recommend .plan dt{
+	float: left;
+	margin-right: 0.194444rem;
+}
+#rPage .recommend .plan dd{
+	float: left;
+}
+#rPage .recommend .plan .top{
+	font-size: 0.388889rem;
+	color: #474747;
+}
+#rPage .recommend .plan img{
+	width: 1.069444rem;
+	height: 1.166667rem;
+}
+#rPage .recommend .plan dl dd:last-of-type{
+	color: #8f8f8f;
+	font-size: 0.277778rem;
+}
+#rPage .recommend .new{
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 0.277778rem;
+}
+#rPage .recommend .title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 1.277778rem;
+	color: #464646;	
+}
+#rPage .recommend .title h3{
+	font-size: 0.388889rem;
+}
+#rPage .recommend .title img{
+	width: 0.402778rem;
+	height: 0.402778rem;
+	margin-left: 0.625rem;
+}
+#rPage .recommend .new .content{
+	display: flex;
+	height: 4.583333rem;
+}
+#rPage .recommend .new dl{
+	height: 100%;
+	flex-grow: 1;
+	text-align: center;
+}
+#rPage .recommend .new dt{
+	position: relative;
+}
+#rPage .recommend .new dt span{
+	display: inline-block;
+	width: 0.833333rem;
+	height: 0.833333rem;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: url(http://pub.szzhangchu.com/web/v4.2/images/ico/ico-play.png) no-repeat;
+	background-size: 0.819444rem;
+	position: absolute;
+	top: 0.680556rem;
+	left: 1.236111rem;
+}
+#rPage .recommend .new dl img{
+	width: 3.319444rem;
+	height: 2.222222rem;
+}
+#rPage .recommend .new dd{
+	font-size: 0.333333rem;
+	overflow: hidden;
+	
+}
+#rPage .recommend .new dd:first-of-type{
+	height: 0.833333rem;
+	line-height: 0.833333rem;
+	margin-top: 0.208333rem;
+	font-weight: bold;
+}
+#rPage .recommend .new dl dd:last-of-type{
+	font-size: 0.305556rem;
+	color: #a0a0a0;
+	line-height: 0.416667rem;
+	padding: 0 0.486111rem;
+}
+#rPage .recommend .tea{
+	width: 100%;
+	height: 7.208333rem;
+	background-color: #fff;
+	margin-bottom: 0.277778rem;
+}
+#rPage .recommend .tea ul{
+	height: 4.472222rem;
+	display: flex;
+}
+#rPage .recommend .tea ul li{
+	flex-grow: 1;
+}
+#rPage .recommend .tea ul li a{
+	display: inline-block;
+}
+#rPage .recommend .tea ul li:first-of-type{
+	position: relative;
+}
+#rPage .recommend .tea ul li img{
+	width: 3.319444rem;
+	height: 2.222222rem;
+	margin: 0 0.027778rem 0.027778rem 0;
+}
+#rPage .recommend .tea ul li:first-of-type img{
+	height: 4.472222rem;
+	margin-bottom: 0;
+}
+#rPage .recommend .tea ul li div{
+	width: 3.319444rem;
+	font-size: 0.347222rem;
+	line-height: 0.347222rem;
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0.180556rem;
+	text-align: center;
+	z-index: 2; 
+}
+#rPage .recommend .tea ul li .bg{
+	height: 50%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+	left: 0;
+	bottom: 0;
+	z-index: 1;
+}
+#rPage .recommend .tea ul li .dish{
+	color: #efefef;
+	font-size: 0.25rem;
+	height: 0.611111rem;
+	line-height: 0.611111rem;
+}
+#rPage .recommend .saying{
+	height: 1.458333rem;
+	color: #a1a1a1;
+	line-height: 1.458333rem;
+	font-size: 0.305556rem;
+	text-align: center;
+}
+#rPage .recommend .all{
+	height: 1.833333rem;
+	line-height: 1.833333rem;
+	text-align: center; 
+	font-size: 0.388889rem;
+}
+#rPage .recommend .all img{
+	width: 0.402778rem;
+	height: 0.402778rem;
+	margin-left: 0.625rem;
+}
+#rPage .recommend .rec{
+	background-color: #fff;
+	margin-bottom: 0.277778rem;
+}
+#rPage .recommend .rec li{
+	height: 2.847222rem;
+	border-top: 1px solid #e0e0e0;
+}
+#rPage .recommend .rec li>div{
+	float: left;
+	line-height: 0.625rem;
+	font-size: 0.347222rem;
+}
+#rPage .recommend .rec li img{
+	width: 2.458333rem;
+	height: 2.833333rem;
+	margin-right: 0.25rem;
+}
+#rPage .recommend .rec li h3{
+	font-size: 0.347222rem;
+	margin-top: 0.527778rem;
+}
+#rPage .recommend .rec li p{
+	color: #a0a0a0;
+}
+#rPage .recommend .goodWorks{
+	width: 100%;
+	height: 7.083333rem;
+	background-color: #fff;	
+	margin-bottom: 0.277778rem;
+}
+#rPage .recommend .goodWorks .content{
+	display: flex;
+}
+#rPage .recommend .goodWorks dl{
+	flex-grow: 1;
+}
+#rPage .recommend .goodWorks dt img{
+	width: 3.319444rem;
+	height: 3.319444rem;
+}
+#rPage .recommend .goodWorks dd{
+	font-size: 0.333333rem;
+	text-align: center;
+	margin-top: -0.472222rem;
+	line-height: 0.694444rem;
+}
+#rPage .recommend .goodWorks dd span{
+	display: inline-block;
+	width: 0.944444rem;
+	height: 0.944444rem;
+	overflow: hidden;
+	border-radius: 50%;
+}
+#rPage .recommend .goodWorks dd img{
+	width: 0.944444rem;
+	height: 0.944444rem;
+}
+#rPage .recommend .goodFood{
+	background-color: #fff;
+}
+#rPage .recommend .goodFood .pic img{
+	width: 100%;
+	height: 3.361111rem;
+}
+#rPage .recommend .goodFood .main{
+	height: 2.027778rem;
+	text-align: center;
+	padding: 0 0.541667rem;
+}
+#rPage .recommend .goodFood .main h3{
+	font-size: 0.388889rem;
+	line-height: 0.388889rem;
+	margin-top: 0.25rem;
+}
+#rPage .recommend .goodFood .main p{
+	font-size: 0.277778rem;
+	color: #a0a0a0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 0.722222rem;
+} 
+#rPage .foodOriginal{
+	display: none;
+}
+#rPage .common dl{
+	margin-bottom: 0.277778rem;
+	padding: 0 0.402778rem 0.111111rem 0.333333rem;
+	background-color: #fff;
+}
+#rPage .common dt{
+	height: 1.208333rem;
+	line-height: 1.291667rem;
+	font-size: 0.361111rem;
+	font-weight: bold;
+} 
+#rPage .common dl img{
+	width: 3.597222rem;
+	height: 2.194444rem;
+}
+#rPage .common dl a{
+	display: inline-block;
+	width: 1.611111rem;
+	height: 0.888889rem;
+	background-color: #f0f0f0;
+	color: #7e7e7e;
+	line-height: 0.888889rem;
+	text-align: center;
+	margin-bottom: 0.277778rem;
+}
+#rPage .common dl div div{
+	float: right;
+}
+#rPage .common dl div p a:nth-child(-n+2){
+	margin-right: 0.277778rem; 
+}
+#rPage .common dd>p a:first-of-type{
+	margin-left: 0.069444rem;
+}
+#rPage .common dd>p a:nth-child(-n+4){
+	margin-right: 0.277778rem; 
 }
