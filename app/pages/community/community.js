@@ -3,6 +3,7 @@ angular.module('communityPage',[])
 
   $stateProvider
   .state({
+  	css:"app/pages/community/community.css",
     name:'community',
     url:'/community',
     templateUrl:'app/pages/community/community.html'
