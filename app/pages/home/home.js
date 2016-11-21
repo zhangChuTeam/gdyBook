@@ -1,10 +1,10 @@
-angular.module('homePage', [])
+angular.module('homePage', ["ksSwiper"])
 	.config(function($stateProvider, $urlRouterProvider) {
 		$stateProvider
 			.state({
 				name: 'home',
 				url: '/home',
-				css: 'app/pages/home/home.css',			
+				css: 'app/pages/home/home.css',
 				templateUrl: 'app/pages/home/home.html',
 				controller: 'homeCtrl'
 			})
@@ -24,12 +24,30 @@ angular.module('homePage', [])
 			})
 	})
 	.controller('homeCtrl', function($scope, $http) {
-		$http.get('app/pages/home/swiper.json')
-		.success(function(res) {
-			$scope.slides = res.slide;
-			$scope.click = function (){
-			$(".wrap").css("margin-left","-100%");
-	//			$(".nav span").animate({"left":"100%"})
-			}
-		})
+		$http.get('app/pages/home/json/swiper.json')
+			.success(function(res) {
+				$scope.slides = res.slide;
+				var params = {
+				    slidesPerView: $scope.slidesPerView || 1,
+				    slidesPerColumn: $scope.slidesPerColumn || 1,
+				    spaceBetween: $scope.spaceBetween || 0,
+				    direction: $scope.direction || 'horizontal',
+				    loop: $scope.loop || false,
+				    initialSlide: $scope.initialSlide || 0,
+				    showNavButtons: true
+				};
+				$scope.recommend = function (){
+					$(".wrap").css("margin-left", "0");
+				}
+				$scope.foodOriginal = function() {
+					$(".wrap").css("margin-left", "-100%");
+				}
+				$scope.sort = function() {
+					$(".wrap").css("margin-left", "-200%");
+				}
+			})
+		$http.get("app/pages/home/json/stuff.json")
+			.success(function(res){
+				console.log(res)
+			})
 	})
