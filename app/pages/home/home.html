@@ -304,74 +304,117 @@
 				</div>
 			</div>
 		</div>
-
 		<div class="foodOriginal common">
 			<dl>
 				<dt>常见食材</dt>
 				<dd>
-					<div class="clear">
-						<a href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
-						<div>
-							<!--<p><a ng-repeat="x for " href="javascript:;">菠菜</a></p>-->
-							<p>
-								<a href="javascript:;">菠菜</a>
-								<a href="javascript:;">菠菜</a>
-								<a href="javascript:;">菠菜</a>
-							</p>
-						</div>
-					</div>
 					<p>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in normals" href="javascript:;"><span>{{x.title}}</span></a>
 					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>当季食材</dt>
+				<dd>
 					<p>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in seasons" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>			
+			<dl>
+				<dt>蔬菜-茎叶类</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in stemLeafs" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>蔬菜-块茎类</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in tuberousRoots" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>蔬菜-瓜果类</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in melonFruits" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>蔬菜-豆类</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in beans" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>菌菇类</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in mushrooms" href="javascript:;"><span>{{x.title}}</span></a>
 					</p>
 				</dd>
 			</dl>
 		</div>
 		<div class="sort common">
 			<dl>
-				<dt>常见食材</dt>
+				<dt>3分钟小炒</dt>
 				<dd>
-					<div class="clear">
-						<a href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
-						<div>
-							<p>
-								<a href="javascript:;">菠菜</a>
-								<a href="javascript:;">菠菜</a>
-								<a href="javascript:;">菠菜</a>
-							</p>
-							<p>
-								<a href="javascript:;">菠菜</a>
-								<a href="javascript:;">菠菜</a>
-								<a href="javascript:;">菠菜</a>
-							</p>
-						</div>
-					</div>
 					<p>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-					</p>
-					<p>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
-						<a href="javascript:;">菠菜</a>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in quicks" href="javascript:;"><span>{{x.title}}</span></a>
 					</p>
 				</dd>
 			</dl>
+			<dl>
+				<dt>简易家常菜</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in easys" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>荤菜帮</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in meats" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>健康素菜</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in plates" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt>河鲜海味</dt>
+				<dd>
+					<p>
+						<a class="left" href="javascript:;"><img src="app/common/img/home/pic1.jpg"></a>
+						<a class="food" ng-repeat="x in seafoods" href="javascript:;"><span>{{x.title}}</span></a>
+					</p>
+				</dd>
+			</dl>			
 		</div>
 	</div>
 </div>

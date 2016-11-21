@@ -37,17 +37,52 @@ angular.module('homePage', ["ksSwiper"])
 				    showNavButtons: true
 				};
 				$scope.recommend = function (){
-					$(".wrap").css("margin-left", "0");
+					$(".wrap").css({
+						"margin-left":"0",
+						"transition":"margin-left 1s"
+					});
+					$(".nav span").css({
+						"left":"0.333333rem",
+						"transition":"left 1s"
+					})
 				}
 				$scope.foodOriginal = function() {
-					$(".wrap").css("margin-left", "-100%");
+					$(".wrap").css({
+						"margin-left":"-100%",
+						"transition":"margin-left 1s"
+					});
+					$(".nav span").css({
+						"left":"1.902778rem",
+						"transition":"left 1s"
+					})
 				}
 				$scope.sort = function() {
-					$(".wrap").css("margin-left", "-200%");
+					$(".wrap").css({
+						"margin-left":"-200%",
+						"transition":"margin-left 1s"
+					});
+					$(".nav span").css({
+						"left":"3.611111rem",
+						"transition":"left 1s"
+					})
 				}
-			})
+			});
 		$http.get("app/pages/home/json/stuff.json")
 			.success(function(res){
-//				console.log(res)
+				$scope.normals = res.data[0].normal;
+				$scope.seasons = res.data[0].season;
+				$scope.stemLeafs = res.data[0].stemLeafs;
+				$scope.tuberousRoots = res.data[0].tuberousRoot;
+				$scope.melonFruits = res.data[0].melonFruit;
+				$scope.beans = res.data[0].beans;
+				$scope.mushrooms = res.data[0].mushroom;
+			})
+		$http.get("app/pages/home/json/sort.json")
+			.success(function(res){
+				$scope.quicks = res.data[0].quick;
+				$scope.easys = res.data[0].easy;
+				$scope.meats = res.data[0].meat;
+				$scope.plates = res.data[0].plate;
+				$scope.seafoods = res.data[0].seafood;
 			})
 	})
