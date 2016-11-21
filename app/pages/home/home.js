@@ -9,10 +9,10 @@ angular.module('homePage', ["ksSwiper"])
 				controller: 'homeCtrl'
 			})
 			.state({
-				name: 'home.part1',
-				url: '/part1',
-				css: 'app/pages/home/home.part1/part1.css',
-				templateUrl: 'app/pages/home/home.part1/home.part1.html',
+				name: 'new',
+				url: '/new',
+				css: 'app/pages/home/new/new.css',
+				templateUrl: 'app/pages/home/new/new.html',
 				controller: function($css) {
 					$css.add('app/pages/home/home.css')
 				}
@@ -66,6 +66,34 @@ angular.module('homePage', ["ksSwiper"])
 						"transition":"left 1s"
 					})
 				}
+				$(".wrap").on("swipeLeft",function (){
+					var lastLeft = parseInt($(this).css("margin-left"));
+					var left = parseInt($(".nav span").css("left"))/innerWidth;
+					var wid = parseInt($(".wrap>div").width());
+					if(lastLeft <= -2*wid){
+						return;
+					}					
+					$(".wrap").css({
+						"margin-left":lastLeft - wid,
+						"transition":"margin-left 1s"
+					});
+//					$(".nav span").css({
+//						"left":left + 1.902778 + "rem",
+//						"transition":"left 1s"
+//					})
+//					console.log($(".nav span").css("left"))
+				})
+				$(".wrap").on("swipeRight",function (){
+					var lastLeft = parseInt($(this).css("margin-left"));
+					var wid = parseInt($(".wrap>div").width());
+					if(lastLeft >= 0){
+						return;
+					}					
+					$(".wrap").css({
+						"margin-left":lastLeft + wid,
+						"transition":"margin-left 1s"
+					});
+				})
 			});
 		$http.get("app/pages/home/json/stuff.json")
 			.success(function(res){

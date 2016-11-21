@@ -210,6 +210,9 @@
 	height: 1.277778rem;
 	color: #464646;	
 }
+#rPage .recommend .title a{
+	display: inline-block;
+}
 #rPage .recommend .title h3{
 	font-size: 0.388889rem;
 }

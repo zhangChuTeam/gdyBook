@@ -1,0 +1,164 @@
+#nPage{
+	color: #464646;
+	font-family: "微软雅黑";
+	font-size: 0.333333rem;
+	background-color: #e0e0e0;
+}
+#nPage header{
+	height: 6.847222rem;
+	background: url(http://img.szzhangchu.com/1458631585588_7839705971.jpg@480h_640w_1e_1c.jpg) no-repeat;
+	background-size: 10.0rem 6.847222rem;
+	text-align: center;
+	color: #fff;
+}
+#nPage header .header{
+	height: 1.527778rem;
+	line-height: 1.527778rem;
+	display: flex;
+	align-itens: center;
+	justify-content: center;
+	margin: 0 0.513889rem 0 0.416667rem;
+}
+#nPage .return a{
+	display: inline-block;
+	width: 0.430556rem;
+	height: 0.430556rem;
+	background: url(../../../common/img/home/return.png) no-repeat;
+	background-size: 0.430556rem;
+}
+#nPage header .header p{
+	font-size: 0.458333rem;
+	margin: 0 1.819444rem 0 3.166667rem;
+}
+#nPage header .right{
+	margin-top: 0.555556rem;
+}
+#nPage header .right a{
+	float: left;
+	display: inline-block;
+}
+#nPage header .search{
+	width: 0.444444rem;
+	height: 0.444444rem;
+	margin-right: 0.722222rem;
+	background: url(../../../common/img/home/search3.png) no-repeat; 
+	background-size: 0.444444rem;
+}
+#nPage header .share{
+	width: 0.527778rem;
+	height: 0.541667rem;
+	background: url(../../../common/img/home/share.png) no-repeat;
+	background-size: 0.527778rem 0.541667rem;
+}
+#nPage header .title{
+	margin-top: 3.138889rem;
+	line-height: 0.833333rem;
+	font-size: 0.333333rem;
+}
+#nPage .content{
+	background-color: #fff;
+	padding-top: 0.083333rem;
+	margin-bottom: 0.277778rem;
+}
+#nPage .content .pic{
+	position: relative;
+	margin-right: 0.486111rem;
+}
+#nPage .content .pic img{
+	width: 3.305556rem;
+	height: 2.388889rem;
+}
+#nPage .content .pic span{
+	display: inline-block;
+	width: 0.833333rem;
+	height: 0.833333rem;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	background: url(http://pub.szzhangchu.com/web/v4.2/images/ico/ico-play.png) no-repeat;
+	background-size: 0.777778rem;
+	position: absolute;
+	top: 0.75rem;
+	left: 1.222222rem;
+}
+#nPage .content li{
+	height: 2.583333rem;
+	font-size: 0.305556rem;
+	margin-top: 0.194444rem;
+	line-height: 0.416667rem;	
+}
+#nPage .content li>div{
+	float: left;
+}
+#nPage .content li .cont{
+	width: 6.194444rem;
+	height: 2.375rem;
+	border-bottom: 1px solid #e0e0e0;
+}
+#nPage .content li h3{
+	font-size: 0.333333rem;
+	line-height: 0.694444rem;
+}
+#nPage .content li p{
+	color: #a1a1a1;
+	width: 5.305556rem;
+}
+#nPage .content li .cont a{
+	display: inline-block;
+	padding: 0 0.305556rem;
+	height: 0.513889rem;
+	line-height: 0.513889rem;
+	border-radius: 0.194444rem;
+	border: 1px solid #ffd7c5;
+	color: #ff905d;
+	margin: 0.180556rem 0.277778rem 0 0;
+}
+#nPage .common{
+	height: 1.75rem;
+	text-align: center;
+	line-height: 1.75rem;
+}
+#nPage .common img{
+	width: 0.388889rem;
+	height: 0.388889rem;
+	margin-left: 0.555556rem;
+	vertical-align: middle;
+}
+#nPage .bottom{
+	width: 100%;
+	background-color: #fff;	
+}
+#nPage .bottom .common{
+	height: 1.361111rem;
+	line-height: 1.361111rem;
+}
+#nPage .bottom .more{
+	display: flex;
+
+}
+#nPage .bottom .more>div{
+	position: relative;
+	flex-grow: 1;
+}
+#nPage .bottom .more a{
+	display: inline-block;
+}
+#nPage .bottom .more img{
+	width: 3.305556rem;
+	height: 4.444444rem;
+}
+#nPage .bottom .text{
+	width: 100%;
+	position: absolute;
+	bottom: 0.138889rem;
+	left: 0;
+	line-height: 0.527778rem;
+	color: #fff;
+	text-align: center;
+}
+#nPage .bottom .text p:first-of-type{
+	font-size: 0.361111rem;
+}
+#nPage .bottom .text p:last-of-type{
+	font-size: 0.277778rem;
+}
+
