@@ -1,10 +1,10 @@
-angular.module('projectDemo.minePage',[])
+angular.module('myPage',[])
 .config(function($stateProvider,$urlRouterProvider){
 
   $stateProvider
   .state({
-    name:'mine',
-    url:'/mine',
-    templateUrl:'app/pages/mine/mine.html'
+    name:'my',
+    url:'/my',
+    templateUrl:'app/pages/my/my.html'
   })
 })

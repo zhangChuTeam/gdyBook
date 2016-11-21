@@ -19,7 +19,9 @@
 		<div class="recommend">
 			<div class="banner">
 				<div class="swiper-container">
-					<div class="swiper-wrapper"></div>
+					<div class="swiper-wrapper">
+						<div class="swiper-slide" ng-repeat="x in slides"><a href="javascript:;"><img ng-alt={{x.alt}} ng-src={{x.img}}></a></div>
+					</div>
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>

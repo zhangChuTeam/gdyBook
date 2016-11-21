@@ -56,7 +56,7 @@
 	padding-top: 1.555556rem;
 }
 #rPage .wrap .recommend{
-	display: none;
+	/*display: none;*/
 }
 #rPage .wrap>div{
 	width: 10.0rem;
@@ -66,6 +66,12 @@
 	width: 100%;
 	height: 3.375rem;
 	overflow: hidden;
+}
+#rPage .recommend .banner>div{
+	height: 100%;
+}
+#rPage .recommend .banner>div>div{
+	height: 100%;
 }
 #rPage .recommend .banner img{
 	height: 3.375rem; 

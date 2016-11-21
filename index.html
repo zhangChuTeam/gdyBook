@@ -6,36 +6,38 @@
 		<title></title>
 		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 		<link rel="stylesheet" href="app/common/css/main.css" media="screen" title="no title">
+		<link rel="stylesheet" type="text/css" href="app/common/css/reset.css" />
 		<script src="bower_components/angular/angular.min.js"></script>
 		<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
 		<script src="bower_components/angular-css/angular-css.min.js"></script>
 	</head>
+
 	<body>
 		<footer>
-			<dl>
-				<a ui-sref="home"><dt>
-				<span></span>
-			</dt>
-			<dd>食谱</dd></a>
-			</dl>
-			<dl>
-				<a ui-sref="lohas"><dt>
-				<span></span>
-			</dt>
-			<dd>乐活</dd></a>
-			</dl>
-			<dl>
-				<a ui-sref="community"><dt>
-				<span></span>
-			</dt>
-			<dd>社区</dd></a>
-			</dl>
-			<dl>
-				<a ui-sref="my"><dt>
-				<span></span>
-			</dt>
-			<dd>我的</dd></a>
-			</dl>
+			<a class="home" ui-sref="home" ui-sref-active="active">
+				<dl>
+					<dt><span></span></dt>
+					<dd>食谱</dd>
+				</dl>
+			</a>
+			<a class="lohas" ui-sref="lohas" ui-sref-active="active">
+				<dl>
+					<dt><span></span></dt>
+					<dd>乐活</dd>
+				</dl>
+			</a>
+			<a class="community" ui-sref="community" ui-sref-active="active">
+				<dl>
+					<dt><span></span></dt>
+					<dd>社区</dd>			
+				</dl>
+			</a>
+			<a class="my" ui-sref="my" ui-sref-active="active">
+				<dl>
+					<dt><span></span></dt>
+					<dd>我的</dd>
+				</dl>
+			</a>
 		</footer>
 		<div ui-view></div>
 		<script src="app/app.js"></script>
@@ -43,11 +45,13 @@
 		<script src="app/pages/lohas/lohas.js"></script>
 		<script src="app/pages/community/community.js"></script>
 		<script src="app/pages/my/my.js"></script>
+		<script src="app/pages/home/swiper-3.4.0.jquery.min.js"></script>
 	</body>
 	<script>
-		document.documentElement.style.fontSize = innerWidth/10 + "px";
-		window.onresize = function (){
-			document.documentElement.style.fontSize = innerWidth/10 + "px";
+		document.documentElement.style.fontSize = innerWidth / 10 + "px";
+		window.onresize = function() {
+			document.documentElement.style.fontSize = innerWidth / 10 + "px";
 		}
 	</script>
+
 </html>

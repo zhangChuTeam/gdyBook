@@ -1,10 +1,10 @@
-angular.module('projectDemo.catePage',[])
+angular.module('lohasPage',[])
 .config(function($stateProvider,$urlRouterProvider){
 
   $stateProvider
   .state({
-    name:'cate',
-    url:'/cate',
-    templateUrl:'app/pages/cate/cate.html'
+    name:'lohas',
+    url:'/lohas',
+    templateUrl:'app/pages/lohas/lohas.html'
   })
 })
