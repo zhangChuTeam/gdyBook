@@ -48,6 +48,6 @@ angular.module('homePage', ["ksSwiper"])
 			})
 		$http.get("app/pages/home/json/stuff.json")
 			.success(function(res){
-				console.log(res)
+//				console.log(res)
 			})
 	})
