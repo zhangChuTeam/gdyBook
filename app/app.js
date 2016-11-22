@@ -4,5 +4,5 @@ angular.module('projectDemo',['ui.router',"angularCSS",
 "communityPage",
 "myPage"])
 .config(function($stateProvider,$urlRouterProvider){
-  $urlRouterProvider.otherwise('/home')
+//$urlRouterProvider.otherwise('/home')
 })
