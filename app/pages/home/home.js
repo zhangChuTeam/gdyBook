@@ -69,7 +69,15 @@ angular.module('homePage', ["ksSwiper"])
 				css: "app/pages/home/choose/choose.css",
 				templateUrl: "app/pages/home/choose/choose.html",
 				controller: function($css, $scope, $http) {
-					$css.add("app/pages/home/home.css");
+					$css.add("app/pages/home/home.css");					
+					$("#cPage .wrap a").on("click",function (){
+						if(this.className != "active"){
+							$(this).addClass("active");
+						}else{
+							$(this).removeClass();
+						}
+						
+					})
 				}
 			})
 			.state({
