@@ -11,7 +11,7 @@
 				<span></span>
 			</div>
 			<div class="search">
-				<a href="javascript:;"><img src="app/common/img/home/search.png"></a>
+				<a ui-sref="search"><img src="app/common/img/home/search.png"></a>
 			</div>
 		</div>
 	</header>
@@ -30,22 +30,30 @@
 				</div>
 			</div>
 			<nav>
-				<dl class="new_hand">
+				<a ui-sref="newPeople">
+					<dl class="new_hand">
 					<dt><img src="app/common/img/home/new_hand.png"></dt>
 					<dd>新手入门</dd>
 				</dl>
-				<dl class="food_original">
-					<dt><img src="app/common/img/home/food_original.png"></dt>
-					<dd>食材搭配</dd>
-				</dl>
-				<dl class="menu">
-					<dt><img src="app/common/img/home/menu.png"></dt>
-					<dd>场景菜谱</dd>
-				</dl>
-				<dl class="love">
-					<dt><img src="app/common/img/home/love.png"></dt>
-					<dd>猜你喜欢</dd>
-				</dl>
+				</a>
+				<a ui-sref="food">
+					<dl class="food_original">
+						<dt><img src="app/common/img/home/food_original.png"></dt>
+						<dd>食材搭配</dd>
+					</dl>
+				</a>
+				<a ui-sref="more">
+					<dl class="menu">
+						<dt><img src="app/common/img/home/menu.png"></dt>
+						<dd>场景菜谱</dd>
+					</dl>
+				</a>
+				<a ui-sref="guess">
+					<dl class="love">
+						<dt><img src="app/common/img/home/love.png"></dt>
+						<dd>猜你喜欢</dd>
+					</dl>
+				</a>
 			</nav>
 			<div class="bg"></div>
 			<div class="plan">
@@ -74,7 +82,7 @@
 			</div>
 			<div class="new">
 				<div class="title">
-					<h3>今日新品<img src="http://pub.szzhangchu.com/web/v4.2/images/ico/ico-more-circle.png"></h3>
+					<a ui-sref="new"><h3>今日新品<img src="http://pub.szzhangchu.com/web/v4.2/images/ico/ico-more-circle.png"></h3></a>
 				</div>
 				<div class="content">
 					<dl>

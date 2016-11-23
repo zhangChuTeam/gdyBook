@@ -1,0 +1,101 @@
+#mPage{
+	background-color: #eee;
+}
+#mPage .bar{
+	width:100%;
+	height: 0.291667rem;
+	background-color: #eee;
+}
+#mPage .top {
+	width: 100%;
+	height: 1.527778rem;
+	border-top: 1px solid #e0e0e0;
+	border-bottom: 1px solid #e0e0e0;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.458333rem;
+	font-weight: bold;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#mPage .top span:first-of-type {
+	margin: 0.430556rem 0 0 0.5rem;
+	width: 0.541667rem;
+	height: 0.625rem;
+}
+
+#mPage .top span:first-of-type img {
+	width: 100%;
+	height: 100%;
+}
+
+#mPage .top span:nth-of-type(2) {
+	margin-top: 0.541667rem;
+}
+
+#mPage .content{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 1.555556rem 0 0.138889rem 0;
+	background-color: #fff;
+}
+
+#mPage .content>div{
+	position: relative;
+	padding: 0 0.055556rem;
+	width: 3.305556rem;
+	margin:0.027778rem 0.027778rem 0.027778rem 0;
+	overflow: hidden;
+}
+
+#mPage .content>>div:nth-child(3n),#mPage .content>>div:nth-last-child(-n+3) {
+	margin-right: 0;
+}
+
+#mPage .content>>div a {
+	display: inline-block;
+}
+
+#mPage div img {
+	width: 3.305556rem;
+	height: 4.444444rem;
+}
+
+#mPage .text {
+	width: 100%;
+	position: absolute;
+	bottom: 0.138889rem;
+	left: 0;
+	line-height: 0.527778rem;
+	color: #fff;
+	text-align: center;
+}
+
+#mPage .text p:first-of-type {
+	font-size: 0.361111rem;
+}
+
+#mPage .text p:last-of-type {
+	font-size: 0.277778rem;
+}
+
+#mPage .new {
+	width: 1.388889rem;
+	height: 0.777778rem;
+	background-color: #ff7638;
+	color: #fff;
+	font-size: 0.194444rem;
+	line-height: 1.111111rem;
+	text-align: center;
+	position: absolute;
+	top: -0.208333rem;
+	right: -0.555556rem;
+	transform: rotate(45deg);
+}
+footer{
+	display: none;
+}

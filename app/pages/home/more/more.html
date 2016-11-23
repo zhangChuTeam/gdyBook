@@ -1,0 +1,18 @@
+<div id="mPage">
+	<div class="top">
+		<span><a href="#"><img src="app/common/img/my/left_f.png"></a></span>
+		<span>全部场景</span>
+		<span>&nbsp;</span>
+	</div>
+	<p class="bar"></p>
+	<div class="content">
+		<div ng-repeat="x in datas">
+			<a href="javascript:;"><img ng-src={{x.scene_background}}></a>
+			<div class="text">
+				<p>{{x.scene_title}}</p>
+				<p>{{x.dish_count}}道菜</p>
+			</div>
+			<span class="new">NEW</span>
+		</div>
+	</div>	
+</div>
