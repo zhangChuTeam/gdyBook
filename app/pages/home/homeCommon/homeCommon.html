@@ -1,0 +1,58 @@
+<div>
+	<header>
+		<div class="header">
+			<div class="return">
+				<a ui-sref="home"></a>
+			</div>
+			<p>{{datas.scene_title}}</p>
+			<div class="right">
+				<a class="search" ui-sref="search"></a>
+				<a class="share" href="javascript:;"></a>
+			</div>
+		</div>
+		<div class="title">
+			<p>{{datas.dish_count}}道菜</p>
+			<p>{{datas.scene_desc}}</p>
+		</div>
+	</header>
+	<div class="content">
+		<ul>
+			<li class="clear" ng-repeat="x in lists" ng-id={{x.dishes_id}}>
+				<a class="pic" ng-href={{x.share_url}}>
+					<div>
+						<img ng-src={{x.image}}><span></span>
+					</div>
+				</a>
+				<div class="cont">
+					<a class="play" ng-href={{x.share_url}}>
+						<h3>{{x.dishes_name}}</h3>
+						<p class="text">{{x.dishes_desc}}</p>
+					</a>
+					<p class="label">
+						<a ng-repeat="y in x.tags_info" href="" ng-id={{y.id}}>{{y.text}}</a>
+					</p>
+				</div>
+			</li>
+		</ul>
+		<div class="all common">
+			<a href="javascript:;"><p>查看全部(414道)<img src="http://pub.szzhangchu.com/web/v4.2/images/ico/ico-more-circle.png"></p>
+			</a>
+		</div>
+	</div>
+	<div class="bottom">
+		<div class="common">
+			<a ui-sref="more">
+				<p>更多相关场景<img src="http://pub.szzhangchu.com/web/v4.2/images/ico/ico-more-circle.png"></p>
+			</a>
+		</div>
+		<div class="more">
+			<div ng-repeat="x in relates">
+				<a ng-href={{x.share_url}}><img ng-src={{x.scene_background}}></a>
+				<div class="text">
+					<p>{{x.scene_title}}</p>
+					<p>{{x.dishes_count}}道菜</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,641 @@
+{
+	"code": "0",
+	"msg": "success",
+	"version": "4.2",
+	"timestamp": 1479905405000,
+	"data": {
+		"dish_count": 47,
+		"is_new": 0,
+		"scene_background": "http:\/\/img.szzhangchu.com\/1461227934799_9357622350.jpg",
+		"scene_desc": "那些不会照顾自己的人，才忽视食物的重要性。",
+		"scene_id": 72,
+		"scene_title": "晚餐气氛",
+		"scene_type": 12,
+		"dishes_list": [
+			{
+				"image": "http:\/\/img.szzhangchu.com\/1439438165081_6932594085.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/zibujihuoguoA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/zibujihuoguoB.mp4",
+				"dishes_id": 13174,
+				"dishes_name": "滋补鸡火锅",
+				"dishes_desc": "鸡汤翻滚，满室皆香，鸡肉香嫩不老，恰到好处，吃腻了鲜味火锅，偶尔换个家庭量贩浓鸡汤火锅也是醉醉的。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=13174",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 154,
+						"text": "鸡肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439452593262_7928140810.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/suanqieziA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/suanqieziB.mp4",
+				"dishes_id": 13464,
+				"dishes_name": "蒜茄子",
+				"dishes_desc": "蒜茄子是东北一带的汉族风味名菜，入口清凉咸香并带有生津的蒜辣味，健胃消食，是夏季佐餐的美味小食。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=13464",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 392,
+						"text": "东北菜",
+						"type": 2
+					}, {
+						"id": 163,
+						"text": "瓜果类",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439396027171_5554094348.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/rouwandongguatangA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/rouwandongguatangB.mp4",
+				"dishes_id": 12335,
+				"dishes_name": "肉丸冬瓜汤",
+				"dishes_desc": "冬瓜配肉丸，究竟是冬瓜娶了肉丸，还是肉丸娶了冬瓜，不得而知。唯一知道的是，他们是绝对的绝配。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=12335",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 398,
+						"text": "肉类",
+						"type": 2
+					}, {
+						"id": 384,
+						"text": "孕妇餐",
+						"type": 2
+					}, {
+						"id": 232,
+						"text": "晚餐",
+						"type": 2
+					}, {
+						"id": 399,
+						"text": "荤菜汤",
+						"type": 2
+					}, {
+						"id": 151,
+						"text": "猪肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439451722168_1439753483.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/jianjiaochaojixinA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/jianjiaochaojixinB.mp4",
+				"dishes_id": 4348,
+				"dishes_name": "尖椒炒鸡心",
+				"dishes_desc": "以形补形已经是其次，重要的是它是川菜，要多辣，你随意。无辣不欢的你，做呢还是做呢还是做呢。。。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=4348",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 154,
+						"text": "鸡肉",
+						"type": 2
+					}, {
+						"id": 300,
+						"text": "降低血脂",
+						"type": 2
+					}, {
+						"id": 315,
+						"text": "调节三高",
+						"type": 2
+					}, {
+						"id": 398,
+						"text": "肉类",
+						"type": 2
+					}, {
+						"id": 397,
+						"text": "肉类",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439399696434_7090946620.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/shanyaohongzaobaopaiguA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/shanyaohongzaobaopaiguB.mp4",
+				"dishes_id": 12712,
+				"dishes_name": "山药红枣煲排骨",
+				"dishes_desc": "山药一贯就是好东西，用山药煲排骨，放几粒红枣，很是滋补，骨汤鲜香，枣味略甜。 山药味甘、性平，入肺、脾、肾经，不燥不腻 。具有健脾补肺、益胃补肾、固肾益精作用，可以\n滋润皮肤，防止皮肤干燥，还可以减肥。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=12712",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 207,
+						"text": "山药",
+						"type": 2
+					}, {
+						"id": 151,
+						"text": "猪肉",
+						"type": 2
+					}, {
+						"id": 398,
+						"text": "肉类",
+						"type": 2
+					}, {
+						"id": 399,
+						"text": "荤菜汤",
+						"type": 2
+					}, {
+						"id": 332,
+						"text": "煮",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1449750749274_6565568319.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/suanweisanguA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/suanweisanguB.mp4",
+				"dishes_id": 14707,
+				"dishes_name": "蒜味三菇",
+				"dishes_desc": "三种常食的菇、蒜头的香味，在一起炒出香味可口下饭菜",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=14707",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 300,
+						"text": "降低血脂",
+						"type": 2
+					}, {
+						"id": 320,
+						"text": "咸",
+						"type": 2
+					}, {
+						"id": 400,
+						"text": "深夜放毒",
+						"type": 2
+					}, {
+						"id": 326,
+						"text": "炒",
+						"type": 2
+					}, {
+						"id": 145,
+						"text": "菌菇",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439455558583_2836108040.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/chaokuileiA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/chaokuileiB.mp4",
+				"dishes_id": 13576,
+				"dishes_name": "炒盔垒",
+				"dishes_desc": "拌、蒸、炒，复杂的工序呈现出独具风味的小吃，再放上纯正的胡麻油，香气四溢，诱人无比。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=13576",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 326,
+						"text": "炒",
+						"type": 2
+					}, {
+						"id": 159,
+						"text": "根茎类",
+						"type": 2
+					}, {
+						"id": 229,
+						"text": "其他",
+						"type": 2
+					}, {
+						"id": 322,
+						"text": "淡",
+						"type": 2
+					}, {
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439445786661_7308353007.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/xiandanhuangchaohuangguaA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/xiandanhuangchaohuangguaB.mp4",
+				"dishes_id": 9079,
+				"dishes_name": "咸蛋黄炒黄瓜",
+				"dishes_desc": "很多爱美的女生都对黄瓜面膜情有独钟，其实，吃到肚子里面，更滋养。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=9079",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 320,
+						"text": "咸",
+						"type": 2
+					}, {
+						"id": 292,
+						"text": "美容养颜",
+						"type": 2
+					}, {
+						"id": 282,
+						"text": "祛痘祛斑",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439431042416_7517789678.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/hongzaohuangqizhengrugeA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/hongzaohuangqizhengrugeB.mp4",
+				"dishes_id": 12922,
+				"dishes_name": "红枣黄芪蒸乳鸽",
+				"dishes_desc": "烤乳鸽许多人都很爱吃，但是炎炎夏日经常吃又似乎很容易上火，不如加点红枣、黄芪等中药材，采用蒸的烹饪方式，这样吃难道不会更健康吗？是不是更适合夏日的吃法？",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=12922",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 328,
+						"text": "蒸",
+						"type": 2
+					}, {
+						"id": 294,
+						"text": "保肝护肾",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439433295089_7977124467.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/hongtangsuancaiyuhuoguoA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/hongtangsuancaiyuhuoguoB.mp4",
+				"dishes_id": 12984,
+				"dishes_name": "红汤酸菜鱼火锅",
+				"dishes_desc": "“酸菜鱼”是四川家常菜中的名品， “酸菜鱼”用鲜鱼加泡青菜制汤，酸鲜爽口，消暑解腻，风味独特，闻名省外！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=12984",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 232,
+						"text": "晚餐",
+						"type": 2
+					}, {
+						"id": 165,
+						"text": "淡水鱼",
+						"type": 2
+					}, {
+						"id": 319,
+						"text": "辣",
+						"type": 2
+					}, {
+						"id": 332,
+						"text": "煮",
+						"type": 2
+					}, {
+						"id": 152,
+						"text": "牛肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1441542659979_5232847371.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/xiaomogutangA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/xiaomogutangB.mp4",
+				"dishes_id": 13853,
+				"dishes_name": "小蘑菇汤",
+				"dishes_desc": "汤味浓郁，蘑菇爽滑，是一道鲜美的法国汤，和常见的奶油浓汤和清汤完全不同的风味。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=13853",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 151,
+						"text": "猪肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439470858440_5604188409.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/mangguoweiguodongA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/mangguoweiguodongB.mp4",
+				"dishes_id": 7498,
+				"dishes_name": "芒果味果冻",
+				"dishes_desc": "这长于热带的果实，像是吸满了阳光，才有着阳光一样灿烂的色彩，洋溢着热烈的芬芳。取下果肉做成光滑可爱的布丁，阳光就这样被拥有。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=7498",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 233,
+						"text": "下午茶",
+						"type": 2
+					}, {
+						"id": 250,
+						"text": "果冻",
+						"type": 2
+					}, {
+						"id": 317,
+						"text": "甜",
+						"type": 2
+					}, {
+						"id": 334,
+						"text": "冻",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439462522878_1662899590.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/yarouchaojunguA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/yarouchaojunguB.mp4",
+				"dishes_id": 7132,
+				"dishes_name": "鸭肉炒菌菇",
+				"dishes_desc": "小鸭子生活在蘑菇圆圆的顶盖下，他们相依相偎，相亲相爱，彼此渗透着属于对方的气息。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=7132",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 155,
+						"text": "鸭肉",
+						"type": 2
+					}, {
+						"id": 145,
+						"text": "菌菇",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 397,
+						"text": "肉类",
+						"type": 2
+					}, {
+						"id": 326,
+						"text": "炒",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439463042604_7791321361.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/zisuyouyujuanA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/zisuyouyujuanB.mp4",
+				"dishes_id": 9824,
+				"dishes_name": "紫苏鱿鱼卷",
+				"dishes_desc": "清新的紫苏，翻卷着叶片将鱿鱼紧紧抱于怀中，生怕有些许的差池，都会让鱿鱼受到伤害，而此时，鱿鱼只是静静地感受着这份爱。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=9824",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 149,
+						"text": "蛋类",
+						"type": 2
+					}, {
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 221,
+						"text": "其他",
+						"type": 2
+					}, {
+						"id": 166,
+						"text": "海鱼",
+						"type": 2
+					}, {
+						"id": 330,
+						"text": "炸",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439463034783_8823924444.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/xianxiazhouA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/xianxiazhouB.mp4",
+				"dishes_id": 9823,
+				"dishes_name": "鲜虾粥",
+				"dishes_desc": "青色的虾仁在沸水中滚出娇羞的粉嫩，同时在高温的作用下蜷缩出了香滑Q弹的口感，每一口，都是鲜美无比的滋味。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=9823",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 181,
+						"text": "大米",
+						"type": 2
+					}, {
+						"id": 230,
+						"text": "营养早餐",
+						"type": 2
+					}, {
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 332,
+						"text": "煮",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439445809172_9843196253.JPG",
+				"material_video": "http:\/\/video.szzhangchu.com\/suancaidunzhuduA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/suancaidunzhuduB.mp4",
+				"dishes_id": 6577,
+				"dishes_name": "酸菜炖猪肚",
+				"dishes_desc": "陈老的酸菜不断刺激唾液腺，迫不及待夹起一块早已入味十足的猪肚放入口中，这酸爽，简直不敢想象！",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=6577",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 295,
+						"text": "开胃消食",
+						"type": 2
+					}, {
+						"id": 398,
+						"text": "肉类",
+						"type": 2
+					}, {
+						"id": 331,
+						"text": "炖",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 151,
+						"text": "猪肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439434286329_3877697755.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/qingdunshizitouA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/qingdunshizitouB.mp4",
+				"dishes_id": 8663,
+				"dishes_name": "清炖狮子头",
+				"dishes_desc": "准扬菜系，相传是蒋介石家过年时，饭桌上必备的一道年夜菜。特点是不需要油炸，口感清爽肥润而不油腻。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=8663",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 266,
+						"text": "苏菜",
+						"type": 2
+					}, {
+						"id": 289,
+						"text": "增强免疫力",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 212,
+						"text": "江苏小吃",
+						"type": 2
+					}, {
+						"id": 151,
+						"text": "猪肉",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1444988517354_5924505837.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/chaohuaxieA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/chaohuaxieB.mp4",
+				"dishes_id": 11770,
+				"dishes_name": "炒花蟹",
+				"dishes_desc": "菊花开，闻蟹来，吃着花蟹，喝着小酒，日子可不逍遥？",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=11770",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 326,
+						"text": "炒",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439466756528_6452399495.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/sanxianxianjiaoziA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/sanxianxianjiaoziB.mp4",
+				"dishes_id": 13786,
+				"dishes_name": "三鲜馅饺子",
+				"dishes_desc": "北方人常说：好吃不过饺子。一口饺子，有菜有肉有主食，最是实惠方便不过了。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=13786",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 332,
+						"text": "煮",
+						"type": 2
+					}, {
+						"id": 321,
+						"text": "鲜",
+						"type": 2
+					}, {
+						"id": 344,
+						"text": "厨师",
+						"type": 2
+					}, {
+						"id": 225,
+						"text": "饺子",
+						"type": 2
+					}, {
+						"id": 297,
+						"text": "安神助眠",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}, {
+				"image": "http:\/\/img.szzhangchu.com\/1439460749527_9289889677.jpg",
+				"material_video": "http:\/\/video.szzhangchu.com\/gaijiaofanA.mp4",
+				"process_video": "http:\/\/video.szzhangchu.com\/gaijiaofanB.mp4",
+				"dishes_id": 9759,
+				"dishes_name": "盖浇饭",
+				"dishes_desc": "除了欣赏富士山的美景，你还可以把富士山存储到肚子里。",
+				"share_url": "http:\/\/m.izhangchu.com\/web\/dishes_view\/index.html?&dishes_id=9759",
+				"like": 0,
+				"tags_info": [
+					{
+						"id": 309,
+						"text": "防癌抗癌",
+						"type": 2
+					}, {
+						"id": 320,
+						"text": "咸",
+						"type": 2
+					}, {
+						"id": 181,
+						"text": "大米",
+						"type": 2
+					}, {
+						"id": 222,
+						"text": "米饭",
+						"type": 2
+					}
+				],
+				"comoditys": []
+			}
+		],
+		"share_url": "http:\/\/m.izhangchu.com\/web\/scene\/view.html?&scene_id=72",
+		"relates": [
+			{
+				"scene_background": "http:\/\/img.szzhangchu.com\/1461679602895_1636454105.jpg",
+				"scene_id": 170,
+				"scene_title": "心情美食之“喜伤心”",
+				"dishes_count": 11
+			}, {
+				"scene_background": "http:\/\/img.szzhangchu.com\/1449138827632_7825066056.jpg",
+				"scene_id": 69,
+				"scene_title": "快手便当菜",
+				"dishes_count": 18
+			}, {
+				"scene_background": "http:\/\/img.szzhangchu.com\/1449127047339_2283438921.jpg",
+				"scene_id": 52,
+				"scene_title": "健身低卡早餐",
+				"dishes_count": 7
+			}
+		]
+	}
+}
