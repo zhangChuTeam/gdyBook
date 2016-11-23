@@ -1,0 +1,77 @@
+{
+	"code": "0",
+	"msg": "success",
+	"version": "4.0",
+	"timestamp": 1479815143000,
+	"data": {
+		"type": 2,
+		"type_name": "kitchenskill",
+		"page": "1",
+		"size": "10",
+		"total": "37",
+		"count": "10",
+		"data": [
+			{
+				"id": "37",
+				"title": "怎样选择酸奶，酸奶哪种比较好？",
+				"image": "http:\/\/img.szzhangchu.com\/1465005924234_5282707690.jpg",
+				"video": "",
+				"views": "38166"
+			}, {
+				"id": "36",
+				"title": "怎样挑选新鲜好羊肉",
+				"image": "http:\/\/img.szzhangchu.com\/1465005509513_4444360370.jpg",
+				"video": "",
+				"views": "40768"
+			}, {
+				"id": "35",
+				"title": "怎样让苹果保持新鲜好吃？",
+				"image": "http:\/\/img.szzhangchu.com\/1465005158254_8072024300.jpg",
+				"video": "",
+				"views": "29191"
+			}, {
+				"id": "34",
+				"title": "怎样巧妙判断冬笋的老嫩",
+				"image": "http:\/\/img.szzhangchu.com\/1465004779191_9929774526.jpg",
+				"video": "",
+				"views": "25531"
+			}, {
+				"id": "33",
+				"title": "怎样防止面食品变硬",
+				"image": "http:\/\/img.szzhangchu.com\/1464947547158_8432305556.jpg",
+				"video": "",
+				"views": "38914"
+			}, {
+				"id": "32",
+				"title": "怎样的当归才是好当归",
+				"image": "http:\/\/img.szzhangchu.com\/1464946938121_9618615210.jpg",
+				"video": "",
+				"views": "32049"
+			}, {
+				"id": "31",
+				"title": "怎么挑选新鲜牛肉？",
+				"image": "http:\/\/img.szzhangchu.com\/1464946503087_5827121785.jpg",
+				"video": "",
+				"views": "34095"
+			}, {
+				"id": "30",
+				"title": "怎么挑选购买菜花？",
+				"image": "http:\/\/img.szzhangchu.com\/1464945480787_4604557060.jpg",
+				"video": "",
+				"views": "37777"
+			}, {
+				"id": "29",
+				"title": "该怎么辨别土鸡蛋？",
+				"image": "http:\/\/img.szzhangchu.com\/1464944729970_4784417359.jpg",
+				"video": "",
+				"views": "24914"
+			}, {
+				"id": "28",
+				"title": "土豆储存方法有哪些？",
+				"image": "http:\/\/img.szzhangchu.com\/1464943647206_7084128597.jpg",
+				"video": "",
+				"views": "29727"
+			}
+		]
+	}
+}

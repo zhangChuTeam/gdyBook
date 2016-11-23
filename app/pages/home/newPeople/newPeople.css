@@ -1,0 +1,155 @@
+#new {
+	width: 100%;
+	font-size: 0.347222rem;
+	height: 100%;
+}
+
+#new .top {
+	width: 100%;
+	height: 1.180556rem;
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #b7b7b7;
+	border-bottom: 1px solid #b7b7b7;
+	font-size: 0.416667rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+}
+
+#new .top span:nth-of-type(2) {
+	margin-top: 0.361111rem;
+}
+
+#new .top span:first-of-type {
+	margin: 0.361111rem 0 0 0.319444rem;
+	width: 0.291667rem;
+	height: 0.555556rem;
+}
+
+#new .top span:first-of-type img {
+	width: 100%;
+	height: 100%;
+}
+
+#new .top span:last-of-type {
+	margin: 0.361111rem 0.152778rem 0 0;
+	width: 0.555556rem;
+	height: 0.555556rem;
+}
+
+#new .top span:last-of-type img {
+	width: 100%;
+	height: 100%;
+}
+
+#new .nav {
+	width: 100%;
+	height: 2.333333rem;
+	border-bottom: 2px solid #f2f2f2;
+	overflow-x: auto;
+	overflow-y: hidden;
+	margin-bottom: 0.277778rem;
+	position: fixed;
+	top: 1.222222rem;
+	left: 0;
+	background-color: #fff;
+}
+
+#new .nav div {
+	width: 150%;
+	height: 2.333333rem;
+}
+
+#new .nav div dl {
+	height: 1.916667rem;
+	text-align: center;
+	font-size: 0.361111rem;
+	justify-content: space-around;
+	float: left;
+	padding: 0.166667rem 0.333333rem 0 0.333333rem;
+	flex-wrap: wrap;
+}
+
+#new .nav div dl dt {
+	width: 1.333333rem;
+	height: 1.333333rem;
+	margin-bottom: 0.208333rem;
+}
+
+#new .nav div dl dt img {
+	width: 100%;
+	height: 100%;
+}
+
+#new .nav div dl dd {
+	color: #a2a2a2;
+}
+
+#new .nav div dl:first-of-type {
+	margin-left: 0.791667rem;
+}
+
+#new .nav div dl:first-of-type dd {
+	color: #ff8f5c;
+}
+
+#new .containt {
+	width: 100%;
+	margin-top: 3.555556rem;
+}
+
+#new .containt dl {
+	width: 100%;
+	height: 6.430556rem;
+	font-size: 0.416667rem;
+	margin-bottom: 0.277778rem;
+}
+
+#new .containt dl dt {
+	width: 100%;
+	height: 5.277778rem;
+}
+
+#new .containt dl dt img {
+	width: 100%;
+	height: 100%;
+}
+
+#new .containt dl dd {
+	line-height: 1.111111rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+#new .containt dl dd p:first-of-type {
+	width: 4.972222rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-left: 0.416667rem;
+}
+
+#new .containt dl dd p:last-of-type {
+	margin-right: 0.277778rem;
+	color: #a1a1a1;
+	font-size: 0.236111rem;
+}
+
+#new .containt dl:last-of-type {
+	margin-bottom: 0;
+}
+
+#new .bottom {
+	width: 9.444444rem;
+	height: 0.916667rem;
+	line-height: 0.916667rem;
+	border-radius: 0.458333rem;
+	text-align: center;
+	background-color: #dddddd;
+	margin: 0 auto;
+}
+footer{
+	display: none;
+}

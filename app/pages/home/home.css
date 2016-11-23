@@ -53,11 +53,14 @@
 }
 #rPage .wrap{
 	width: 300%;
-	overflow: hidden;
+	height: 17.055556rem;
+	overflow-x: hidden;
 	padding-top: 1.555556rem;
 }
 #rPage .wrap>div{
 	width: 10.0rem;
+	height: 17.055556rem;
+	overflow: scroll;
 	float: left;
 }
 #rPage .recommend .banner{
@@ -126,10 +129,13 @@
 	align-items: center;
 	background-color: #fff;
 }
-#rPage .recommend nav dl{
+#rPage .recommend nav>a{
 	flex-grow: 1;
 	text-align: center;
 	font-size: 0.305556rem;
+}
+#rPage .recommend nav dl{
+	
 }
 #rPage .recommend nav .new_hand img{
 	width: 0.444444rem;
@@ -169,12 +175,12 @@
 }
 #rPage .recommend .plan>div{
 	width: 200%;
+	display: flex;
 }
 #rPage .recommend .plan dl{
 	width: 25%;
 	height: 100%;
 	padding-left: 0.194444rem;
-	float: left;
 }
 #rPage .recommend .plan dl:nth-child(odd){
 	border-right: 2px solid #e2e2e2;
@@ -446,9 +452,15 @@
 	height: 0.888889rem;
 	background-color: #f0f0f0;
 	color: #7e7e7e;
-	line-height: 0.888889rem;
-	text-align: center;
 	margin: 0 0.277778rem 0.277778rem 0;
+}
+#rPage .common dl p .food span{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 #rPage .common dl p{
 	margin-left: 0.361111rem;

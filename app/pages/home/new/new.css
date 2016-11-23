@@ -61,8 +61,10 @@
 	margin-bottom: 0.277778rem;
 }
 #nPage .content .pic{
+	display: inline-block;
 	position: relative;
 	margin-right: 0.486111rem;
+	float: left;
 }
 #nPage .content .pic img{
 	width: 3.305556rem;
@@ -102,7 +104,15 @@
 	color: #a1a1a1;
 	width: 5.305556rem;
 }
-#nPage .content li .cont a{
+#nPage .content li .text{
+	height: 0.8rem;
+	overflow: hidden;
+}
+#nPage .content li .label{
+	height: 0.713889rem;
+	overflow: hidden;
+}
+#nPage .content li .cont p a{
 	display: inline-block;
 	padding: 0 0.305556rem;
 	height: 0.513889rem;
@@ -160,5 +170,8 @@
 }
 #nPage .bottom .text p:last-of-type{
 	font-size: 0.277778rem;
+}
+footer{
+	display: none;
 }
 
