@@ -95,6 +95,7 @@ angular.module('homePage', ["ksSwiper"])
 					$css.add("app/pages/home/home.css");
 					var oText = document.getElementsByClassName("text")[0];
 					var oHistory = document.getElementsByClassName("history")[0];
+					
 					$scope.focus = function() {
 						$(".cancel").html("搜索");
 					}
@@ -105,42 +106,55 @@ angular.module('homePage', ["ksSwiper"])
 						oText.value = "";
 						$(".clearText").hide();
 					}
-					$scope.click = function() {
-							if(oText.value.trim().length == 0) {
-								return;
-							}
-							var datas = {
-								infos: oText.value,
-								dates: (new Date()).toLocaleString()
-							}
-							localStorage.setItem(datas.dates, JSON.stringify(datas));
-							oHistory.appendChild(create(datas));
-							oText.value = "";
-							//创建span
-							function create(obj) {
-								var span = document.createElement("span");
-								span.innerHTML = obj.infos;
-								return span;
-							}
+					
+					//点击搜索存数据
+					$scope.click = function() {	
+						var dataArr = [];
+						if(oText.value.trim().length == 0) {
+							return;
 						}
-						//					$scope.$watch(function (){
-						//						$scope.readData = function (){
-						//							//读取
-						//							function readData(){
-						//								for(var keys in localStorage){
-						//									if(keys != "jfVersion"){
-						//										var datas = JSON.parse(localStorage.getItem(keys));
-						//										oHistory.appendChild(create(datas));
-						//									}						
-						//								}
-						//							}
-						//							readData();
-						//						}
-						//					})
+						console.log(localStorage)
+						if(localStorage.data){
+							dataArr = JSON.parse(localStorage.data);
+							dataArr.push(oText.value);
+							localStorage.data = JSON.stringify(dataArr);
+						}else{
+							dataArr.push(oText.value);
+							var arr = JSON.stringify(dataArr)
+							localStorage.data = arr;
+						}
+						oHistory.appendChild(create(oText.value));
+						oText.value = "";
+						//创建span
+						function create(obj) {
+							var span = document.createElement("span");
+							span.innerHTML = obj;
+							return span;
+						}	
+					}
+					//清除历史
+					$scope.clear = function (){
+						localStorage.clear();
+						oHistory.innerHTML = "";
+					}
+					//读取数据	
+					if(localStorage.data){
+						$scope.datas = JSON.parse(localStorage.data);
+					}
 				}
 			})
 	})
 	.controller('homeCtrl', function($scope, $http) {
+		//图片懒加载
+		$("img.lazy").lazyload({
+			placeholder : "app/common/img/home/loading.gif",
+		    threshold : 200, //threshold 为 200 令图片在距离屏幕 200 像素时提前加载.
+		    effect : "show",//淡入效果
+		    failurelimit : 10
+		});
+		$("img.lazy").show().lazyload();
+		
+		//图片轮播
 		$http.get('app/pages/home/json/swiper.json')
 			.success(function(res) {
 				//轮播图
@@ -195,6 +209,7 @@ angular.module('homePage', ["ksSwiper"])
 					var index = Math.abs(lastLeft / parseInt($(this).width()) * 3) + 1;
 					var left = parseInt($(".nav span").css("left")) / innerWidth;
 					var wid = parseInt($(".wrap>div").width());
+
 					if(lastLeft <= -2 * wid) {
 						return;
 					}

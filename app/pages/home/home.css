@@ -191,7 +191,11 @@
 	margin-right: 0.194444rem;
 }
 #rPage .recommend .plan dd{
+	width: 2.833333rem;
 	float: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 #rPage .recommend .plan .top{
 	font-size: 0.388889rem;

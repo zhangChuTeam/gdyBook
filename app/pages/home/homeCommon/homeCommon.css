@@ -6,10 +6,16 @@
 }
 #nPage header{
 	height: 6.847222rem;
-	background: url(http://img.szzhangchu.com/1458631585588_7839705971.jpg@480h_640w_1e_1c.jpg) no-repeat;
-	background-size: 10.0rem 6.847222rem;
 	text-align: center;
 	color: #fff;
+	position: relative;
+}
+#nPage header>img{
+	width: 10.0rem;
+	height: 6.847222rem;
+}
+#nPage header>div{
+	position: absolute;
 }
 #nPage header .header{
 	height: 1.527778rem;
@@ -17,7 +23,8 @@
 	display: flex;
 	align-itens: center;
 	justify-content: center;
-	margin: 0 0.513889rem 0 0.416667rem;
+	top: 0;
+	left: 0.388889rem;
 }
 #nPage .return a{
 	display: inline-block;
@@ -51,9 +58,12 @@
 	background-size: 0.527778rem 0.541667rem;
 }
 #nPage header .title{
-	margin-top: 3.138889rem;
+	width: 100%;
 	line-height: 0.833333rem;
 	font-size: 0.333333rem;
+	text-align: center;
+	top: 4.861111rem;
+	left: 0;
 }
 #nPage .content{
 	background-color: #fff;
