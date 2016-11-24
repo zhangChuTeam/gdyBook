@@ -4,8 +4,13 @@
 		<span ng-click="click()" class="cancel"><a ui-sref="home">取消</a></span>
 	</div>
 	<div class="h_1">
-		<h4>历史记录</h4>
-		<p class="history"></p>
+		<div>
+			<h4>历史记录</h4>
+			<p class="history">
+				<span ng-repeat="x in datas">{{x}}</span>
+			</p>
+		</div>
+		<button class="clearHistory" ng-click="clear()">清除历史</button>
 	</div>
 	<div class="h_2">
 		<h4>热</h4>
