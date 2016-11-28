@@ -1,0 +1,27 @@
+<div id="sPage" ng-controller="search_result">
+	<header class="top">
+		<div><a ui-sref="search"><img src="app/common/img/my/left_f.png"></a></div>
+		<h3>为你找到</h3>
+		<div> </div>
+		<input ng-model="test" class="sText" type="text" ng-value={{test}} />
+	</header>
+	<ul>
+		<li ng-repeat="x in data | filter:test">
+			<a class="pic">
+				<div>
+					<img ng-src={{x.image}}><span></span>
+				</div>
+			</a>
+			<div class="cont">
+				<a class="play" ng-href="{{x.share_url}}">
+					<h3>{{x.dishes_name}}<span></span></h3>
+					<p class="text">{{x.dishes_desc}}</p>
+				</a>
+				<div class="tast"><div><i></i>难度：容易</div><span></span><div><i></i>难度：容易</div></div>
+				<div class="time"><div><i></i>烹饪时间：11分30秒</div></div>
+			</div>
+		</li>
+	</ul>
+	
+</div>
+
