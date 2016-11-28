@@ -1,19 +1,23 @@
-<div id="search">
+<div id="search" ng-controller="search">
 	<div class="top">
-		<div><input class="text" ng-focus="focus()" ng-blur="blur()" ng-keydown="keydown()" type="text" placeholder="请输入搜索的内容" /><img class="clearText" ng-click="close()" src="app/common/img/home/close.png"></div>
+		<div><input class="text" ng-focus="focus()" ng-blur="blur()" ng-keydown="keydown()" ng-keyup="keyup()" type="text" placeholder="请输入搜索的内容" ng-model="test" /><img class="clearText" ng-click="close()" src="app/common/img/home/close.png"></div>
 		<span ng-click="click()" class="cancel"><a ui-sref="home">取消</a></span>
+		<span ng-click="click(test)" class="look"><a ui-sref="search_result">搜索</a></span>
 	</div>
+	<ul class="list">
+		<li ng-repeat="x in data | filter:test"><a class="name" ng-href="{{x.share_url}}">{{x.dishes_name}}</a></li>
+	</ul>
 	<div class="h_1">
 		<div>
 			<h4>历史记录</h4>
 			<p class="history">
-				<span ng-repeat="x in datas">{{x}}</span>
+				<span class="name" ng-repeat="x in dat">{{x}}</span>
 			</p>
 		</div>
 		<button class="clearHistory" ng-click="clear()">清除历史</button>
 	</div>
 	<div class="h_2">
-		<h4>热</h4>
+		<h4>热门搜索</h4>
 		<p>
 			<span>虾</span>
 			<span>山药</span>
