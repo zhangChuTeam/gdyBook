@@ -258,18 +258,18 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 			if(oText.value == "") {
 				$(".cancel").show();
 				$(".look").hide();
+				$("#search .list").hide();
 			}
 		}
 
 		$scope.keydown = function(e) {
-			var e = e || window.event;
+			var e = e || window.event;		
 			$(".clearText").show();
 			$(".cancel").hide();
-			$(".look").show();
-			$("#search .list").show();
-//			if(e.keyCode == 13 && oText.value != ""){
-//				$(".look").click();
-//			}
+			$(".look").show();			
+			if(oText.value != ""){
+				$("#search .list").show();
+			}
 		}
 
 		$scope.keyup = function() {
