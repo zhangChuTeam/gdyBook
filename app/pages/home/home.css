@@ -169,11 +169,13 @@
 	background-color: #fff;
 	padding: 0.388889rem 0;
 	margin-bottom: 0.277778rem;
-	overflow: auto;
+	overflow-x: auto;
+	overflow-y: hidden;
 }
 #rPage .recommend .plan>div{
 	width: 200%;
 	display: flex;
+	align-items: center;
 }
 #rPage .recommend .plan dl{
 	width: 25%;

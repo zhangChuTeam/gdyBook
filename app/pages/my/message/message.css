@@ -1,0 +1,49 @@
+#message{width: 100%;height: 100%;font-size: 0.416667rem;padding-top: 1px;}
+#message .top{width: 100%;height: 1.527778rem;border-top: 1px solid #e0e0e0;border-bottom: 1px solid #e0e0e0;display: flex;justify-content: space-between;font-size: 0.458333rem;font-weight: bold;margin-bottom: 0.277778rem;background-color: #fff;position: fixed;top: 0;left: 0;z-index: 2;}
+#message .top span:first-of-type{margin: 0.430556rem 0 0 0.5rem;width: 0.541667rem;height: 0.625rem;}
+#message .top span:first-of-type img{width: 100%;height: 100%;}
+#message .top span:nth-of-type(2){margin-top: 0.541667rem;}
+#message #box{width:100%; overflow: hidden;margin-top: 1.555556rem;}
+
+#message #box>p{display: flex; height:1.166667rem;position: relative;border-bottom: 1px solid #e0e0e0;}
+#message #box>p>a{flex: 1; height:100%; text-align: center;line-height: 40px; text-decoration: none;background-color:#f5f5f4;color: #7c7c7c;font-weight: bold;}
+#message #box>p>span{display: inline-block;position: absolute;left: 12%;top: 1.111111rem;width: 10%;height: 3px;background-color: orange;}
+#message #box>div{width: 300%;height:400px;}
+#message #box>div div:first-of-type dl{width: 100%;height: 1.611111rem;border-bottom: 1px solid #e0e0e0;}
+#message #box>div div:first-of-type dl dt {width: 1.083333rem;height: 1.375rem;margin: 0.125rem 0.472222rem 0 0.402778rem;float: left;}
+#message #box>div div:first-of-type dl dt img{width: 100%;height: 100%;}
+#message #box>div div:first-of-type dl dd{float: left;width: 7.638889rem;}
+#message #box>div div:first-of-type dl dd:first-of-type{color: #ff8f5c;font-size: 0.361111rem;margin-top: 0.125rem;margin-bottom: 0.416667rem;}
+#message #box>div div:first-of-type dl dd:last-of-type{font-size: 0.277778rem;color: #aaa;}
+#message #box>div div{width:33.3333%;float: left;}
+
+#message #box>div div:nth-of-type(2)>p{width: 3.152778rem;height: 3.277778rem;font-size: 0.361111rem;margin: 4.847222rem 0 0 3.388889rem;} 
+#message #box>div div:nth-of-type(2)>p span{display: inline-block;}
+#message #box>div div:nth-of-type(2)>p span:first-of-type{width: 100%;height: 2.597222rem;display: flex;justify-content: space-around;margin-bottom: 0.319444rem;}
+#message #box>div div:nth-of-type(2)>p span:first-of-type img{width: 1.888889rem;height: 2.597222rem;}
+#message #box>div div:nth-of-type(3) dl{width: 100%;height: 3.208333rem;border-bottom: 1px solid #e0e0e0;position: relative;}
+#message #box>div div:nth-of-type(3) dl dt{width: 0.986111rem;height: 0.986111rem;margin: 1.222222rem 0.319444rem 0 0.347222rem;float: left;}
+#message #box>div div:nth-of-type(3) dl dt img{width: 100%;height: 100%;}
+#message #box>div div:nth-of-type(3) dl dd{float: left;}
+#message #box>div div:nth-of-type(3) dl dd{width: 6.458333rem;}
+#message #box>div div:nth-of-type(3) dl dd:first-of-type{height: 0.416667rem;margin: 0.555556rem 0 0.236111rem;font-weight: bold;}
+#message #box>div div:nth-of-type(3) dl dd:nth-of-type(2){line-height: 0.611111rem;color: #a0a0a0;font-size: 0.361111rem;}
+#message #box>div div:nth-of-type(3) dl dd:nth-of-type(3){line-height: 0.611111rem;margin-left: 1.666667rem;font-size: 0.305556rem;}
+#message #box>div div:last-of-type dl dd:last-of-type{width: 0.902778rem;height: 0.833333rem;position: absolute;top: 1.361111rem;right: 0.513889rem;}
+#message #box>div div:last-of-type dl dd:last-of-type img{width: 100%;height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

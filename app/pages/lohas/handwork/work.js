@@ -1,0 +1,10 @@
+angular.module("workPage",[])
+    .config(function($stateProvider,$urlRouterProvider){
+            $stateProvider
+                .state({
+                    name:"work",
+                    url:"/handwork",
+                    templateUrl:"app/pages/lohas/handwork/work.html",
+                    css:"app/pages/lohas/handwork/work.css"
+                })
+        })

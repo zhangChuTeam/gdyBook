@@ -1,3 +1,266 @@
-<h1>
-  this is cart page
-</h1>
+	<div class="big" ng-controller="ctrl_commu">
+		<div class="head">
+			<a href="#">关注</a>
+			<a href="#">推荐</a>
+			<a href="#">最新</a>
+			<span class="move"></span>
+		</div>
+	<div class="shequ" ng-controller="shequ_swipe">
+			<div class="guanzhu" ng-controller="ctrlcommu" >
+					<dl ng-repeat="x in obj">
+						<dt><img ng-src={{x.img}} class="show_img"/></dt>
+						<!--<dt><img class="show_img" lazy-src={{x.img}} animate-visible="true" animate-speed="3s"/></dt>-->
+						
+						<dd>{{x.tit}}</dd>
+						<dd>{{x.content}}</dd>
+						<dd>
+							<div class="head_photo">
+								<img ng-src={{x.comments.img}}>
+							</div>
+							<ul class="user_info">
+								<li class="user_name">{{x.comments.tit}}</li>
+								<li class="data">{{x.comments.date}}</li>
+							</ul>
+						</dd>
+						<ul id="middle">
+							<li >
+								<img  ng-repeat="y in x.comment" ng-src={{y.com_headimg}}  />
+							</li>
+							<li >
+								<p ng-repeat="z in x.comment"><span class="visit-name">{{z.com_name}}</span><span>:{{z.com_cont}}</span></p>
+							</li> 
+						</ul>							
+						<a id="morehot" ng-click="morehot()" ui-sref="comment">更多厨友热评({{x.nums.cont_num}})</a>
+						
+						<dd>
+							<span>
+								<img src="app/common/img/community/tu (1).png" ng-click="goodclick()">
+								<span class="num1">{{x.nums.good_num}}</span>
+							</span>
+							<span>
+								<img src="app/common/img/community/tu (2).png" ng-click="cntclick()">
+								<span class="num2" >{{x.nums.cont_num}}</span>
+							</span>
+							<span>
+								<img src="app/common/img/community/tu (3).png" ng-click="shareclick()">
+								<span class="num3" >{{x.nums.share_num}}</span>
+							</span>
+						</dd>
+						<div class="fill"></div>
+					</dl>
+				</div> 
+
+					 <div class="tuijian">
+							<div class="tui_banner">
+								<div>
+									<img src="app/common/img/community/tui_banner.png"/>
+								</div>
+							</div>
+							<div class="fill1">
+							</div>
+							<div class="daren">
+								<p><img src="app/common/img/community/biao1.png">达人</p>
+								<div>
+									<div class="DD kinds">
+										<dl>
+											<dt><img src="app/common/img/community/dr1.png"></dt>
+											<dd>雪薇</dd>
+											<dd>粉丝:14</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr2.png"></dt>
+											<dd>二姐</dd>
+											<dd>粉丝:326</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr3.png"></dt>
+											<dd>木匠的女儿</dd>
+											<dd>粉丝:3211</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr4.png"></dt>
+											<dd>风影函沙</dd>
+											<dd>粉丝:1434</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr1.png"></dt>
+											<dd>雪薇</dd>
+											<dd>粉丝:14</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr2.png"></dt>
+											<dd>二姐</dd>
+											<dd>粉丝:326</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr3.png"></dt>
+											<dd>木匠的女儿</dd>
+											<dd>粉丝:3211</dd>
+										</dl>
+										<dl>
+											<dt><img src="app/common/img/community/dr4.png"></dt>
+											<dd>风影函沙</dd>
+											<dd>粉丝:1434</dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+							<div class="fill1">
+							</div>
+							<dl>
+								<dt class="DT">
+									<img src="app/common/img/community/biao2.png">精选作品
+								</dt>
+								<dd class="DD">
+									<p>
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/tui2.png">
+										<img src="app/common/img/community/tui3.png">
+										<img src="app/common/img/community/tui4.png">
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/new1.png">
+										<img src="app/common/img/community/new2.png">
+									</p>
+								</dd>
+							</dl>
+							<div class="fill1">
+							</div>
+							<dl>
+								<dt class="DT">
+									<img src="app/common/img/community/biao2.png">掌厨学院
+								</dt>
+								<dd class="DD">
+									<p>
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/tui2.png">
+										<img src="app/common/img/community/tui3.png">
+										<img src="app/common/img/community/tui4.png">
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/new1.png">
+										<img src="app/common/img/community/new2.png">
+									</p>
+								</dd>
+							</dl>
+							<div class="fill1">
+							</div>
+							<dl>
+								<dt class="DT">
+									<img src="app/common/img/community/biao2.png">烘焙达人
+								</dt>
+								<dd class="DD">
+									<p>
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/tui2.png">
+										<img src="app/common/img/community/tui3.png">
+										<img src="app/common/img/community/tui4.png">
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/new1.png">
+										<img src="app/common/img/community/new2.png">
+									</p>
+								</dd>
+							</dl>
+							<div class="fill1">
+							</div>
+							<dl>
+								<dt class="DT">
+									<img src="app/common/img/community/biao2.png">元气早餐
+								</dt>
+								<dd class="DD">
+									<p>
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/tui2.png">
+										<img src="app/common/img/community/tui3.png">
+										<img src="app/common/img/community/tui4.png">
+										<img src="app/common/img/community/tui1.png">
+										<img src="app/common/img/community/new1.png">
+										<img src="app/common/img/community/new2.png">
+									</p>
+								</dd>
+							</dl>
+							<div class="fill1">
+							</div>
+						</div> 
+		<div class="news">
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new1.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new2.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new1.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new2.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new1.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new2.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new1.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-src="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s"> 
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+				<dl>
+					<dt><img lazy-src="app/common/img/community/new2.png" animate-visible="true" animate-speed="0.5s"></dt>
+					<dd>
+						<img lazy-srcc="app/common/img/community/new4.png" animate-visible="true" animate-speed="0.5s">
+						<ul>
+							<li>厨艺堂-吴登浩</li>
+							<li>刚刚</li>
+						</ul>
+					</dd>
+				</dl> 
+		</div>
+  </div> 
+</div>

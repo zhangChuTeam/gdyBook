@@ -1,0 +1,57 @@
+	<div class="lehuo" ng-controller="ctrl" >
+		<header class="le_head">
+			<span class="hua"></span>
+			<h2 class="le_cate_one" ng-click="lohas_cate()"><a>美食IP</a></h2>
+			<h2 class="le_health_one" ng-click="lohas_health()"><a>健康IP</a></h2>
+		</header>
+		<div class="lohas1" ng-controller="lohas_swipe">
+			<div class="le_cate">
+				<div class="le_cate_head">
+					<div class="samPic">
+						<a ui-sref="lehuo2" ng-repeat="z in loc"><img ng-src={{z.album_logo}}></a>
+					</div>
+				</div>
+				<div class="le_cate_xiang">
+					<a ui-sref="lehuo2" ng-repeat="z in loc">
+						<figure>
+							<img lazy-src='{{z.image}}' />
+							<figcaption>
+								<h2>{{z.series_name}}</h2>
+								<span>更新至{{z.episode}}集</span>
+								<span>上课人数{{z.play}}</span>
+							</figcaption>
+							<div class="pic">
+								<img lazy-src={{z.album_logo}} animate-visible="true" animate-speed="1s" alt="">
+								<p>{{z.album}}</p>
+							</div>
+						</figure>
+					</a>
+
+				</div>
+			</div>
+			<div class="le_health">
+				<div class="le_health_head">
+					<div class="samPic">
+						<a ui-sref="lehuo2" ng-repeat="x in img"><img ng-src={{x.album_logo}}></a>
+					</div>
+				</div>
+				<div class="le_health_xiang">
+					<a ui-sref="lehuo2" ng-repeat="x in img">
+						<figure>
+							<img lazy-src={{x.image}} animate-visible="true" animate-speed="2s" alt="">
+							<figcaption>
+								<h2>{{x.series_name}}</h2>
+								<span>更新至{{x.episode}}集</span>
+								<span>上课人数{{x.play}}</span>
+							</figcaption>
+							<div class="pic">
+
+								<img lazy-src={{x.album_logo}} animate-visible="true" animate-speed="2s">
+								<p>{{x.album}}</p>
+							</div>
+						</figure>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>

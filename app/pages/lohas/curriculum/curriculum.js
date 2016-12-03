@@ -1,0 +1,10 @@
+angular.module("curriculumPage",[])
+    .config(function($stateProvider,$urlRouterProvider){
+            $stateProvider
+                .state({
+                    name:"curriculum",
+                    url:"/curriculum",
+                    templateUrl:"app/pages/lohas/curriculum/curriculum.html",
+                    css:"app/pages/lohas/curriculum/curriculum.css"
+                })
+        })

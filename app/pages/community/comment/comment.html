@@ -1,0 +1,91 @@
+<div ng-controller="ctrl_commu">
+		<header>
+			<img src="app/common/img/community/left.png" ui-sref="community"/><span>作品详情</span>
+			<img src="app/common/img/community/love.png"/>
+			<img src="app/common/img/community/share.png"/>
+		</header>
+		<div id="com_big">
+			<img ng-src={{imgsrc}} id="stark"/>
+			<p id="stark">领奖了，我要上头条！</p>
+			<p>2016年1月5日，掌厨社区的新年达人秀活动完美落幕。在此，掌小厨社区的新年达人秀活动完美落幕。
+				在此，掌小厨非常感谢各位小伙伴，各位吃货的积极参与。
+			</p>
+			<p>
+				说起本次的达人秀活动，比赛之激烈可为空前绝后，不得不提的是，就算比赛即将尘埃落定之时，在短短一天的时间内赶上了第一名，
+				甚至是一度反超，黑马的出现使得这次比赛真正进入了白热化阶段，也使得本次比赛的冠军之属出现了悬念，
+				究竟会是谁呢？可谓是令人揪心。
+			<p>
+				---我是分割线，以上纯属掌小厨吹牛，重点看下面---
+			</p>
+			<p>
+				本次新年达人秀活动前十名公告：
+				<span>1@嘻嘻</span><span>点赞数：145 评论数：138   得分132.2</span>
+				<span>2@哈哈</span><span>点赞数：140 评论数：133   得分122.2</span>
+				<span>3@呵呵</span><span>点赞数：134评论数：113   得分112.2</span>
+			</p>
+			<div id="banner">
+				<img src='app/common/img/community/02.png'>
+				<ul>
+					<p>掌小厨</p>
+					<p>01月07日</p>
+				</ul>
+			</div>
+			<div>
+				<div class="fir">
+					<p>
+						<span>{{nums.good_num}}位厨友觉得很赞</span><img src="app/common/img/community/new5.png"><img src='app/common/img/community/03.png'>
+					</p>
+					<p id="kinds" style="overflow:hidden;height:0.9rem;">
+						<img ng-repeat="IM in conm"  ng-src={{IM.com_headimg}}/>
+						
+					</p>
+				</div>
+				<dl id="more_article">
+					<dt>更多新年达人秀的作品</dt>
+					<dd id="da_ren"> 
+						<img src="app/common/img/community/001.png">
+						<img src="app/common/img/community/002.png">
+						<img src="app/common/img/community/003.png">
+						<img src="app/common/img/community/004.png">
+						<img src="app/common/img/community/new1.png">
+						<img src="app/common/img/community/new2.png">
+					</dd>
+				</dl>
+			</div>
+			<div id="con_area">
+				<!--C层的：num变化，让M层也跟着变化-->
+				<p >{{nums.cont_num}}条点评</p>
+				<p id="com_button" ng-click="click()">
+					我也说两句
+				</p>
+				<ul id="con_list">
+					<!--这里的conm指的是回话数组，x是其中的会话对象-->
+					<li ng-repeat="x in conm">
+						<img ng-src={{x.com_headimg}}/>
+						<div>
+							<p><span>{{x.com_name}}</span><span>11月10日</span></p>
+							<p>{{x.com_cont}}</p>
+						</div>
+					</li>
+					<!--<li>
+						<img src="app/common/img/community/05.png"/>
+						<div>
+							<p><span>x.name</span><span>11月10日</span></p>
+							<p>嘿嘿嘿</p>
+						</div>
+					</li>
+					<li>
+						<img src="app/common/img/community/05.png"/>
+						<div>
+							<p><span>x.name</span><span>11月10日</span></p>
+							<p>嘿嘿嘿</p>
+						</div>
+					</li>-->
+				</ul>
+			</div>
+			<div id="inputbox">
+				<input type="text" placeholder="请输入点评内容"/ id="neirong"><input type="submit" value="发送" ng-click="click_send()"/>
+			</div>
+		</div>
+		
+</div>

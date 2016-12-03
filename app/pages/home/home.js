@@ -33,7 +33,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 				templateUrl: "app/pages/home/more/more.html",
 				controller: function($css, $scope, $http) {
 					$css.add("app/pages/home/home.css");
-					$http.get("app/pages/home/json/more.json")
+					$http.get("http://ohcou9ti1.bkt.clouddn.com/home/more.json")
 						.success(function(req) {
 							$scope.datas = req.data.data
 							$scope.lists = req.data.dishes_list
@@ -101,7 +101,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 	})
 	.controller('homeCtrl', function($scope, $http) {
 		//图片轮播
-		$http.get('app/pages/home/json/swiper.json')
+		$http.get('http://ohcou9ti1.bkt.clouddn.com/home/swiper.json')
 			.success(function(res) {
 				//轮播图
 				$scope.slides = res.slide;
@@ -152,7 +152,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 			var left = parseInt($(".nav span").css("left")) / innerWidth;
 			var wid = parseInt($(".wrap>div").width());
 
-			if(lastLeft <= -2 * wid) {
+			if(lastLeft < -1 * wid) {
 				return;
 			}
 			$(".wrap").css({
@@ -183,7 +183,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 				})
 			})
 			// 食材
-		$http.get("app/pages/home/json/stuff.json")
+		$http.get("http://ohcou9ti1.bkt.clouddn.com/home/stuff.json")
 			.success(function(res) {
 				$scope.normals = res.data[0].normal;
 				$scope.seasons = res.data[0].season;
@@ -194,7 +194,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 				$scope.mushrooms = res.data[0].mushroom;
 			})
 			//分类
-		$http.get("app/pages/home/json/sort.json")
+		$http.get("http://ohcou9ti1.bkt.clouddn.com/home/sort.json")
 			.success(function(res) {
 				$scope.quicks = res.data[0].quick;
 				$scope.easys = res.data[0].easy;
@@ -206,7 +206,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 	//二级页面，今日新品等...
 	.controller("newFood", function($scope, $http, $css) {
 		$css.add("app/pages/home/home.css");
-		$http.get("app/pages/home/json/new.json")
+		$http.get("http://ohcou9ti1.bkt.clouddn.com/home/new.json")
 			.success(function(req) {
 				$scope.datas = req.data;
 				$scope.lists = req.data.dishes_list;
@@ -215,7 +215,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 	})
 	.controller("meals", function($scope, $http, $css) {
 		$css.add("app/pages/home/home.css");
-		$http.get("app/pages/home/json/meals.json")
+		$http.get("http://ohcou9ti1.bkt.clouddn.com/home/meals.json")
 			.success(function(req) {
 				$scope.datas = req.data;
 				$scope.lists = req.data.dishes_list;
@@ -224,7 +224,7 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 	})
 	.controller("easy_meal", function($scope, $http, $css) {
 		$css.add("app/pages/home/home.css");
-		$http.get("app/pages/home/json/easy_meal.json")
+		$http.get("http://ohcou9ti1.bkt.clouddn.com/home/easy_meal.json ")
 			.success(function(req) {
 				$scope.datas = req.data;
 				$scope.lists = req.data.dishes_list;
@@ -286,7 +286,6 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 		$scope.click = function(test) {
 				//存搜索数据
 				itemsService.set(test);
-
 				//搜索
 				var dataArr = [];
 				if(oText.value.trim().length == 0) {
@@ -315,17 +314,17 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 					return span;
 				}
 			}
-			//清除历史
+		//清除历史
 		$scope.clear = function() {
 				localStorage.clear();
 				oHistory.innerHTML = "";
 			}
-			//读取数据	
+		//读取数据	
 		if(localStorage.data) {
 			$scope.dat = JSON.parse(localStorage.data);
 		}
 		//搜索结果
-		$http.get('app/pages/home/json/search.json')
+		$http.get('http://ohcou9ti1.bkt.clouddn.com/home/search.json')
 			.success(function(res) {
 				$scope.data = res.datas;
 			})
@@ -333,8 +332,38 @@ angular.module('homePage', ["ksSwiper", "me-lazyload"])
 
 	.controller('search_result', function($scope, $http, itemsService) {
 		$scope.test = itemsService.get()[0];
-		$http.get('app/pages/home/json/search.json')
+		$http.get('http://ohcou9ti1.bkt.clouddn.com/home/search.json')
 			.success(function(res) {
 				$scope.data = res.datas;
 			})
+	})
+	.controller('guessCtrl',function($scope,$http){
+		
+		$http.get('http://ohcou9ti1.bkt.clouddn.com/home/new.json')
+		.success(function(res){			
+			$scope.logo = res.data.dishes_list;
+		})
+	})
+	.controller('foodCtrl',function($scope){
+		var num=0;
+		$(".btn").on('click',function(){
+			if(num==0){
+				$(".leftBar").css("right",0);
+				$(".leftBar").css("transition","right .5s linear");
+				$(".btn").html("&lt;");
+				num=1;
+			}else{
+				$(".leftBar").css("right","-5rem");
+				$(".leftBar").css("transition","right .5s linear");
+				$(".btn").html("&gt;");
+				num=0;
+			}
+		})
+	})
+	.controller('newPeopleCtrl',function($scope,$http){
+		$http.get('app/pages/home/newPeople/newPeople.json')
+		.success(function(res){
+			$scope.data = res.data;
+			
+		})
 	})
